@@ -22,7 +22,7 @@ public class ModItemGroups {
                     entries.add(ModItems.PEPPER);
                     entries.add(ModItems.BUCKETOFPEPPER);
                     entries.add(ModItems.BUTTER);
-                    entries.add(ModItems.MELTEDBUTTER);
+                    entries.add(ModItems.MOLTENSUGAR);
                     entries.add(ModItems.MARSHMELLOW);
                     entries.add(ModItems.MARSHMELLOWSTICK);
                     entries.add(ModItems.SLIGHTLYCOOKEDMARSHMELLOW);
@@ -207,6 +207,26 @@ public class ModItemGroups {
                     entries.add(ModItems.RHUBARB);
                     entries.add(ModItems.SANDBREAD);
                     entries.add(ModItems.HOPS);
+                    entries.add(ModItems.CANDIED_APPLE);
+                    entries.add(ModItems.CANDIED_BEET);
+                    entries.add(ModItems.CANDIED_BLUEBER);
+                    entries.add(ModItems.CANDIED_CARROT);
+                    entries.add(ModItems.CANDIED_GLOWBER);
+                    entries.add(ModItems.CANDIED_MELON);
+                    entries.add(ModItems.CANDIED_PUMPKIN);
+                    entries.add(ModItems.CANDIED_STRAWBER);
+                    entries.add(ModItems.CANDIED_SWEETBER);
+                    entries.add(ModItems.ROCK_CANDY_APPLE);
+                    entries.add(ModItems.ROCK_CANDY_BEET);
+                    entries.add(ModItems.ROCK_CANDY_BLUEBER);
+                    entries.add(ModItems.ROCK_CANDY_CARROT);
+                    entries.add(ModItems.ROCK_CANDY_GLOWBER);
+                    entries.add(ModItems.ROCK_CANDY_MELON);
+                    entries.add(ModItems.ROCK_CANDY_PUMPKIN);
+                    entries.add(ModItems.ROCK_CANDY_STRAWBER);
+                    entries.add(ModItems.ROCK_CANDY_SWEETBER);
+                    entries.add(ModItems.TAFFY);
+                    entries.add(ModItems.CANDY_CORN);
                     }).build());
 
     public static final ItemGroup AGOLDYBLOCK = Registry.register(Registries.ITEM_GROUP,

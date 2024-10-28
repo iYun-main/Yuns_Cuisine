@@ -354,7 +354,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TRUFFLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.PEPPER, Models.GENERATED);
         itemModelGenerator.register(ModItems.BUCKETOFPEPPER, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MELTEDBUTTER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOLTENSUGAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.MARSHMELLOW, Models.GENERATED);
         itemModelGenerator.register(ModItems.MARSHMELLOWSTICK, Models.GENERATED);
         itemModelGenerator.register(ModItems.SLIGHTLYCOOKEDMARSHMELLOW, Models.GENERATED);
@@ -554,6 +554,27 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SANDBREAD, Models.GENERATED);
         itemModelGenerator.register(ModItems.DIAMOND_KNIFE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_KNIFE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.CANDIED_APPLE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CANDIED_BEET, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CANDIED_BLUEBER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CANDIED_CARROT, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CANDIED_GLOWBER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CANDIED_MELON, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CANDIED_PUMPKIN, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CANDIED_STRAWBER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CANDIED_SWEETBER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ROCK_CANDY_APPLE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ROCK_CANDY_BEET, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ROCK_CANDY_BLUEBER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ROCK_CANDY_CARROT, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ROCK_CANDY_GLOWBER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ROCK_CANDY_MELON, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ROCK_CANDY_PUMPKIN, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ROCK_CANDY_STRAWBER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ROCK_CANDY_SWEETBER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TAFFY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CANDY_CORN, Models.GENERATED);
 
     }
 }

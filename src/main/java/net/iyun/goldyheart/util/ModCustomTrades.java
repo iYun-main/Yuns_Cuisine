@@ -65,6 +65,11 @@ public class ModCustomTrades {
                     1,2,0.45f));
 
             factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(Items.EMERALD, 2),
+                    new ItemStack(ModItems.MOLTENSUGAR,1),
+                    10,2,0.45f));
+
+            factories.add((entity, random) -> new TradeOffer(
                     new TradedItem(Items.EMERALD, 10),
                     new ItemStack(ModBlocks.SPIRAL_SAPLING),
                     1,2,0.45f));

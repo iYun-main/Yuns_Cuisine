@@ -203,7 +203,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         .add(ModItems.PEPPER.asItem())
         .add(ModItems.BUCKETOFPEPPER.asItem())
         .add(ModItems.BUTTER.asItem())
-        .add(ModItems.MELTEDBUTTER.asItem())
+        .add(ModItems.MOLTENSUGAR.asItem())
         .add(ModItems.MARSHMELLOW.asItem())
         .add(ModItems.MARSHMELLOWSTICK.asItem())
         .add(ModItems.SLIGHTLYCOOKEDMARSHMELLOW.asItem())

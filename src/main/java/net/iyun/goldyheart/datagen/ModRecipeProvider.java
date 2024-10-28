@@ -1047,6 +1047,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.CHICKEN), conditionsFromItem(ModItems.RAWCHICKENLEG))
                 .offerTo(exporter, Identifier.of(getRecipeName(ModItems.RAWCHICKENLEG)));
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.CANDY_CORN,5)
+                .input(Items.SUGAR,3)
+                .input(ModItems.CORN)
+                .criterion(hasItem(Items.SUGAR), conditionsFromItem(ModItems.CANDY_CORN))
+                .criterion(hasItem(ModItems.CORN), conditionsFromItem(ModItems.CANDY_CORN))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.CANDY_CORN)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.TAFFY,6)
+                .input(Items.SUGAR,2)
+                .input(Items.HONEY_BOTTLE,1)
+                .input(ModItems.BUTTER)
+                .criterion(hasItem(Items.SUGAR), conditionsFromItem(ModItems.TAFFY))
+                .criterion(hasItem(Items.HONEY_BOTTLE), conditionsFromItem(ModItems.TAFFY))
+                .criterion(hasItem(ModItems.BUTTER), conditionsFromItem(ModItems.TAFFY))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.TAFFY)));
+
 // this is just for me to simply repeating shit
         cakesslice(ModItems.BEETROOTCAKESLICE, ModItems.BEETROOTCAKE, exporter);
         cakesslice(ModItems.CHORUSCAKESLICE, ModItems.CHORUSCAKE, exporter);
@@ -1231,6 +1247,27 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         oreberries(ModItems.GOLDBERRY, Items.GOLD_BLOCK,exporter);
         oreberries(ModItems.REDSTONEBERRY, Items.REDSTONE_BLOCK,exporter);
 
+
+        candieditems(ModItems.CANDIED_APPLE, Items.APPLE,exporter);
+        candieditems(ModItems.CANDIED_BEET, Items.BEETROOT,exporter);
+        candieditems(ModItems.CANDIED_BLUEBER, ModItems.BLUEBERRY,exporter);
+        candieditems(ModItems.CANDIED_CARROT, Items.CARROT,exporter);
+        candieditems(ModItems.CANDIED_GLOWBER, Items.GLOW_BERRIES,exporter);
+        candieditems(ModItems.CANDIED_MELON, Items.MELON_SLICE,exporter);
+        candieditems(ModItems.CANDIED_PUMPKIN, Items.PUMPKIN,exporter);
+        candieditems(ModItems.CANDIED_STRAWBER, ModItems.STRAWBERRY,exporter);
+        candieditems(ModItems.CANDIED_SWEETBER, Items.SWEET_BERRIES,exporter);
+
+        rockcandy(ModItems.ROCK_CANDY_APPLE, Items.APPLE,exporter);
+        rockcandy(ModItems.ROCK_CANDY_BEET, Items.BEETROOT,exporter);
+        rockcandy(ModItems.ROCK_CANDY_BLUEBER, ModItems.BLUEBERRY,exporter);
+        rockcandy(ModItems.ROCK_CANDY_CARROT, Items.CARROT,exporter);
+        rockcandy(ModItems.ROCK_CANDY_GLOWBER, Items.GLOW_BERRIES,exporter);
+        rockcandy(ModItems.ROCK_CANDY_MELON, Items.MELON_SLICE,exporter);
+        rockcandy(ModItems.ROCK_CANDY_PUMPKIN, Items.PUMPKIN,exporter);
+        rockcandy(ModItems.ROCK_CANDY_STRAWBER, ModItems.STRAWBERRY,exporter);
+        rockcandy(ModItems.ROCK_CANDY_SWEETBER, Items.SWEET_BERRIES,exporter);
+
         buttons(ModBlocks.ANCIENT_BUTTON, ModBlocks.ANCIENT_PLANKS,exporter);
         buttons(ModBlocks.OLD_BUTTON, ModBlocks.OLD_PLANKS,exporter);
         buttons(ModBlocks.SPIRAL_BUTTON, ModBlocks.SPIRAL_PLANKS,exporter);
@@ -1384,6 +1421,33 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("WWW")
                 .input('X',Items.SWEET_BERRIES)
                 .input('W',itemConvertible)
+                .criterion(FabricRecipeProvider.hasItem(itemConvertible), FabricRecipeProvider.conditionsFromItem(itemConvertible))
+                .offerTo(exporter, Identifier.of(getRecipeName(output)));
+
+    }
+
+    private void candieditems(ItemConvertible output, ItemConvertible itemConvertible, RecipeExporter exporter) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, output)
+                .pattern(" W ")
+                .pattern("WXW")
+                .pattern("SW ")
+                .input('W',Items.SUGAR)
+                .input('S',Items.STICK)
+                .input('X',itemConvertible)
+                .criterion(FabricRecipeProvider.hasItem(itemConvertible), FabricRecipeProvider.conditionsFromItem(itemConvertible))
+                .offerTo(exporter, Identifier.of(getRecipeName(output)));
+
+    }
+
+    private void rockcandy(ItemConvertible output, ItemConvertible itemConvertible, RecipeExporter exporter) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, output)
+
+                .pattern("AXA")
+                .pattern("SW ")
+                .input('A',Items.SUGAR)
+                .input('W',ModItems.MOLTENSUGAR)
+                .input('S',Items.STICK)
+                .input('X',itemConvertible)
                 .criterion(FabricRecipeProvider.hasItem(itemConvertible), FabricRecipeProvider.conditionsFromItem(itemConvertible))
                 .offerTo(exporter, Identifier.of(getRecipeName(output)));
 

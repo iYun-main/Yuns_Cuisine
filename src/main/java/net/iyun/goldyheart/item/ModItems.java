@@ -36,7 +36,7 @@ public class ModItems {
     public static final Item GOLDBERRY = registerItem("gold_berry", new Item(new  Item.Settings().food(ModFoodComponents.GLOBALMAGICBERRIES)));
     public static final Item REDSTONEBERRY = registerItem("redstone_berry", new Item(new  Item.Settings().food(ModFoodComponents.GLOBALMAGICBERRIES)));
     public static final Item BUTTER = registerItem("butter", new Item(new  Item.Settings().food(ModFoodComponents.BUTTER)));
-    public static final Item MELTEDBUTTER = registerItem("melted_butter", new MeltedButterItem(new  Item.Settings().food(ModFoodComponents.MELTEDBUTTER).recipeRemainder(Items.BUCKET)));
+    public static final Item MOLTENSUGAR = registerItem("molten_sugar", new GlobalBucketieItem(new  Item.Settings().food(ModFoodComponents.MOLTENSUGAR).recipeRemainder(Items.BUCKET)));
     public static final Item TRUFFLE = registerItem("truffle", new Item(new  Item.Settings().food(ModFoodComponents.TRUFFLE)));
     public static final Item FRIEDEGG = registerItem("fried_egg", new Item(new  Item.Settings().food(ModFoodComponents.FRIEDEGG)));
     public static final Item EGGONBREAD = registerItem("egg_on_bread", new Item(new  Item.Settings().food(ModFoodComponents.EGGONBREAD)));
@@ -215,6 +215,29 @@ public class ModItems {
     public static final Item PICKELCARROT = registerItem("pickled_carrots", new GlobalPickleItem(new  Item.Settings().food(ModFoodComponents.GLOBALPICKELS)));
     public static final Item PICKELBLUE = registerItem("pickled_blueberries", new GlobalPickleItem(new  Item.Settings().food(ModFoodComponents.GLOBALPICKELS)));
     public static final Item PICKELBELL = registerItem("pickled_bellpepper", new GlobalPickleItem(new  Item.Settings().food(ModFoodComponents.GLOBALPICKELS)));
+
+    public static final Item CANDIED_APPLE = registerItem("candied_apple", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALSTICKCANDY)));
+    public static final Item CANDIED_BEET = registerItem("candied_beetroot", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALSTICKCANDY)));
+    public static final Item CANDIED_BLUEBER = registerItem("candied_blueberries", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALSTICKCANDY)));
+    public static final Item CANDIED_CARROT = registerItem("candied_carrot", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALSTICKCANDY)));
+    public static final Item CANDIED_GLOWBER = registerItem("candied_glow_berries", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALSTICKCANDY)));
+    public static final Item CANDIED_MELON = registerItem("candied_melon", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALSTICKCANDY)));
+    public static final Item CANDIED_PUMPKIN = registerItem("candied_pumpkin", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALSTICKCANDY)));
+    public static final Item CANDIED_STRAWBER = registerItem("candied_strawberries", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALSTICKCANDY)));
+    public static final Item CANDIED_SWEETBER = registerItem("candied_sweet_berries", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALSTICKCANDY)));
+
+    public static final Item ROCK_CANDY_APPLE = registerItem("rock_candy_apple", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALROCKCANDY)));
+    public static final Item ROCK_CANDY_BEET = registerItem("rock_candy_beetroot", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALROCKCANDY)));
+    public static final Item ROCK_CANDY_BLUEBER = registerItem("rock_candy_blueberry", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALROCKCANDY)));
+    public static final Item ROCK_CANDY_CARROT = registerItem("rock_candy_carrot", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALROCKCANDY)));
+    public static final Item ROCK_CANDY_GLOWBER = registerItem("rock_candy_glow_berry", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALROCKCANDY)));
+    public static final Item ROCK_CANDY_MELON = registerItem("rock_candy_melon", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALROCKCANDY)));
+    public static final Item ROCK_CANDY_PUMPKIN = registerItem("rock_candy_pumpkin", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALROCKCANDY)));
+    public static final Item ROCK_CANDY_STRAWBER = registerItem("rock_candy_strawberry", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALROCKCANDY)));
+    public static final Item ROCK_CANDY_SWEETBER = registerItem("rock_candy_sweet_berry", new GlobalCandyStickItem(new Item.Settings().food(ModFoodComponents.GLOBALROCKCANDY)));
+
+    public static final Item TAFFY = registerItem("taffy", new Item(new Item.Settings().food(ModFoodComponents.GLOBALCANDY)));
+    public static final Item CANDY_CORN = registerItem("candy_corn", new Item(new Item.Settings().food(ModFoodComponents.GLOBALCANDY)));
 
 
     public static final Item BLACKSMITHPICKSIGLWOOD = registerItem("blacksmith_pick_sigl_wooden", new BlacksmithItem(new  Item.Settings()));

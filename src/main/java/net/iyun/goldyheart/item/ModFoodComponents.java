@@ -4,6 +4,7 @@ package net.iyun.goldyheart.item;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.item.Items;
 
 public class ModFoodComponents {
     public static final FoodComponent BUTTER = new FoodComponent.Builder().statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 300), 0.5f).nutrition(1).saturationModifier(0.5f).build();
@@ -87,7 +88,7 @@ public class ModFoodComponents {
     public static final FoodComponent LETTUCELEAF = new FoodComponent.Builder().nutrition(2).saturationModifier(0.2f).build();
     public static final FoodComponent STUFFEDBELLPEPPER = new FoodComponent.Builder().nutrition(7).saturationModifier(0.45f).build();
     public static final FoodComponent BUCKETOFPEPPER = new FoodComponent.Builder().nutrition(2).saturationModifier(1f).build();
-    public static final FoodComponent MELTEDBUTTER = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5f).build();
+    public static final FoodComponent MOLTENSUGAR = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED,500,1),0.25f).build();
     public static final FoodComponent COOKEDMARSHMELLOW = new FoodComponent.Builder().nutrition(3).saturationModifier(1f).build();
     public static final FoodComponent RICE = new FoodComponent.Builder().nutrition(2).saturationModifier(0.2f).build();
     public static final FoodComponent COOKEDMARSHMELLOWSTICK = new FoodComponent.Builder().nutrition(4).saturationModifier(0.125f).build();
@@ -95,7 +96,7 @@ public class ModFoodComponents {
     public static final FoodComponent SLIGHTLYCOOKEDMARSHMELLOW = new FoodComponent.Builder().nutrition(3).saturationModifier(0.5f).build();
     public static final FoodComponent BURNTMARSHMELLOW = new FoodComponent.Builder().nutrition(2).saturationModifier(0.45f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 400, 0),1f).build();
     public static final FoodComponent BURNTMARSHMELLOWSTICK = new FoodComponent.Builder().nutrition(1).saturationModifier(0.125f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 400, 0),1f).build();
-    public static final FoodComponent DEBUG = new FoodComponent.Builder().nutrition(-9999999).saturationModifier(1f).alwaysEdible().build();
+   // public static final FoodComponent DEBUG = new FoodComponent.Builder().nutrition(1).saturationModifier(.5f).alwaysEdible().usingConvertsTo(Items.DIAMOND).build();
     public static final FoodComponent BERRIES = new FoodComponent.Builder().nutrition(2).saturationModifier(0.25f).build();
     public static final FoodComponent PEARLSTEW = new FoodComponent.Builder().nutrition(6).saturationModifier(0.2f).build();
     public static final FoodComponent BUTTERCORN = new FoodComponent.Builder().nutrition(6).saturationModifier(0.25f).build();
@@ -108,4 +109,7 @@ public class ModFoodComponents {
     public static final FoodComponent MUFFIN = new FoodComponent.Builder().nutrition(5).saturationModifier(0.2f).build();
     public static final FoodComponent GLOBALMUFFINS = new FoodComponent.Builder().nutrition(5).saturationModifier(0.2f).build();
     public static final FoodComponent GLOBALPICKELS = new FoodComponent.Builder().nutrition(6).saturationModifier(0.25f).build();
+    public static final FoodComponent GLOBALSTICKCANDY = new FoodComponent.Builder().nutrition(5).saturationModifier(0.15f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED,300,1),0.1f).build();
+    public static final FoodComponent GLOBALROCKCANDY = new FoodComponent.Builder().nutrition(6).saturationModifier(0.2f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED,300,1),0.15f).build();
+    public static final FoodComponent GLOBALCANDY = new FoodComponent.Builder().nutrition(3).saturationModifier(0.2f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED,300,1),0.15f).build();
 }
