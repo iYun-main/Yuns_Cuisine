@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "goldyheart:item/slightly_cooked_marshmallow"
+  }
+}

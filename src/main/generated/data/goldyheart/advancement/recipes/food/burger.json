@@ -1,0 +1,109 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cheese": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:burger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cooked_beef": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:burger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cucumber_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:burger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cut_bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:burger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cut_tomato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:burger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_fried_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:burger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lettuce_leaf": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:burger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_onion_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:burger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:burger"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cooked_beef",
+      "has_cheese",
+      "has_lettuce_leaf",
+      "has_fried_egg",
+      "has_cut_tomato",
+      "has_cucumber_slice",
+      "has_onion_slice",
+      "has_cut_bread"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:burger"
+    ]
+  }
+}

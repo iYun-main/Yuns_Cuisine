@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "H": {
+      "item": "goldyheart:blueberry"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "X": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "SES",
+    "HHH"
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:blueberry_cake"
+  }
+}

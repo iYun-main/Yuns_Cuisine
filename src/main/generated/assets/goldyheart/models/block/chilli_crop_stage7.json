@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "goldyheart:block/chilli_crop_stage7"
+  }
+}

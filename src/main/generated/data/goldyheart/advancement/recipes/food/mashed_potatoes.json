@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:mashed_potatoes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_buttered_potato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:mashed_potatoes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pepper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:mashed_potatoes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:mashed_potatoes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:mashed_potatoes"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pepper",
+      "has_salt",
+      "has_buttered_potato",
+      "has_bowl"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:mashed_potatoes"
+    ]
+  }
+}

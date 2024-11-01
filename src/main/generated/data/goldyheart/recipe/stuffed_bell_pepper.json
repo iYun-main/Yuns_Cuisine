@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "goldyheart:bell_pepper"
+    },
+    {
+      "item": "goldyheart:cheese"
+    },
+    {
+      "item": "goldyheart:butter"
+    },
+    {
+      "item": "goldyheart:parsley"
+    },
+    {
+      "item": "goldyheart:rice"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:stuffed_bell_pepper"
+  }
+}

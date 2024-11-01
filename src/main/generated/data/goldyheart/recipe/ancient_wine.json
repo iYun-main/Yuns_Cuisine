@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:ancient_fruit"
+    },
+    {
+      "item": "goldyheart:ancient_fruit"
+    },
+    {
+      "item": "goldyheart:ancient_fruit"
+    },
+    {
+      "item": "goldyheart:ancient_fruit"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:ancient_wine"
+  }
+}

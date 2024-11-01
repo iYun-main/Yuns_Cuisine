@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "X": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "pattern": [
+    "WXW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:netherite_berry"
+  }
+}

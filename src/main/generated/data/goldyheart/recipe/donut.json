@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:salt"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "goldyheart:butter"
+    },
+    {
+      "item": "goldyheart:dough"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "goldyheart:donut"
+  }
+}

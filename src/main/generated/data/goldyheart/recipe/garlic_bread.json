@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:garlic"
+    },
+    {
+      "item": "goldyheart:parsley"
+    },
+    {
+      "item": "goldyheart:cut_bread"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:garlic_bread"
+  }
+}

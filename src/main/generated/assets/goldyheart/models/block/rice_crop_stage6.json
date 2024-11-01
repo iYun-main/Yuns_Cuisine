@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "goldyheart:block/rice_crop_stage6"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:strawberry_jam"
+    },
+    {
+      "item": "goldyheart:donut"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:strawberry_donut"
+  }
+}

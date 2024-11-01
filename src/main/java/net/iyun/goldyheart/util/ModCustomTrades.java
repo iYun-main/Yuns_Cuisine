@@ -59,10 +59,6 @@ public class ModCustomTrades {
         // TODO FIX THIS
         TradeOfferHelper.registerWanderingTraderOffers(2,
                 factories ->{
-            factories.add((entity, random) -> new TradeOffer(
-                    new TradedItem(Items.EMERALD, 10),
-                    new ItemStack(ModBlocks.OLD_SAPLING),
-                    1,2,0.45f));
 
             factories.add((entity, random) -> new TradeOffer(
                     new TradedItem(Items.EMERALD, 2),
@@ -71,23 +67,18 @@ public class ModCustomTrades {
 
             factories.add((entity, random) -> new TradeOffer(
                     new TradedItem(Items.EMERALD, 10),
-                    new ItemStack(ModBlocks.SPIRAL_SAPLING),
-                    1,2,0.45f));
+                    new ItemStack(ModBlocks.TINY_LILLY),
+                    20,2,0.45f));
 
             factories.add((entity, random) -> new TradeOffer(
                     new TradedItem(Items.EMERALD, 10),
-                    new ItemStack(ModBlocks.DARK_SPIRAL_SAPLING),
-                    1,2,0.45f));
+                    new ItemStack(ModBlocks.ASTROPHYLLIA),
+                    20,2,0.45f));
 
             factories.add((entity, random) -> new TradeOffer(
                     new TradedItem(Items.EMERALD, 10),
-                    new ItemStack(ModBlocks.WEATHERED_SAPLING),
-                    1,2,0.45f));
-
-            factories.add((entity, random) -> new TradeOffer(
-                    new TradedItem(Items.EMERALD, 10),
-                    new ItemStack(ModBlocks.ANCIENT_SAPLING),
-                    1,2,0.45f));
+                    new ItemStack(ModBlocks.OLD_ROSE),
+                    20,2,0.45f));
 
             factories.add((entity, random) -> new TradeOffer(
                     new TradedItem(Items.EMERALD, 5),
@@ -133,21 +124,6 @@ public class ModCustomTrades {
                     new TradedItem(Items.EMERALD, 10),
                     new ItemStack(ModItems.BLUEBERRY),
                     1,2,0.45f));
-
-                    //   factories.add((entity, random) -> new TradeOffer(
-                    // new ItemStack(Items.EMERALD, 10),
-                    //new ItemStack(ModItems.WORM),
-                    //1,2,0.45f));
-
-                    //  factories.add((entity, random) -> new TradeOffer(
-                    // new ItemStack(Items.EMERALD, 10),
-                    //new ItemStack(ModItems.WORMBOWL),
-                    //1,2,0.45f));
-
-                    //  factories.add((entity, random) -> new TradeOffer(
-                    //new ItemStack(Items.EMERALD, 10),
-                    //new ItemStack(ModItems.CANOFWORMS),
-                    //1,2,0.45f));
 
                 });
     }

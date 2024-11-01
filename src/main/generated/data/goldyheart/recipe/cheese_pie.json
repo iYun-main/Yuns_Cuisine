@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:cheese"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "goldyheart:dough"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:cheese_pie"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_big_wooden_bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:sniffer_omelette"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_boiled_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:sniffer_omelette"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_boiled_sniffer_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:sniffer_omelette"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:sniffer_omelette"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sniffer_omelette"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_big_wooden_bowl",
+      "has_boiled_sniffer_egg",
+      "has_boiled_egg",
+      "has_salt"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sniffer_omelette"
+    ]
+  }
+}

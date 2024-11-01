@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "goldyheart:cooked_bacon"
+    },
+    {
+      "item": "goldyheart:parsley"
+    },
+    {
+      "item": "goldyheart:butter"
+    },
+    {
+      "item": "goldyheart:cheese"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:stuffed_mushroom"
+  }
+}

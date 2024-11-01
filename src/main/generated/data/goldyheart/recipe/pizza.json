@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:dough"
+    },
+    {
+      "item": "goldyheart:parsley"
+    },
+    {
+      "item": "goldyheart:salt"
+    },
+    {
+      "item": "goldyheart:cheese"
+    },
+    {
+      "item": "goldyheart:tomato_soup"
+    },
+    {
+      "item": "goldyheart:pepper"
+    },
+    {
+      "item": "goldyheart:raw_bacon"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:pizza"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:blueberry"
+    },
+    {
+      "item": "goldyheart:blueberry"
+    },
+    {
+      "item": "goldyheart:muffin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:blueberry_muffin"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:chilli"
+    },
+    {
+      "item": "goldyheart:chilli"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "goldyheart:salt"
+    },
+    {
+      "item": "goldyheart:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:pickled_chili"
+  }
+}

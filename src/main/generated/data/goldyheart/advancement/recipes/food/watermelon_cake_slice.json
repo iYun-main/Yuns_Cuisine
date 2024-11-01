@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_melon_cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:melon_cake"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:watermelon_cake_slice"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_melon_cake"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:watermelon_cake_slice"
+    ]
+  }
+}

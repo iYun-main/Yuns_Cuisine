@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:cucumber_slice"
+    },
+    {
+      "item": "goldyheart:cut_tomato"
+    },
+    {
+      "item": "goldyheart:bell_pepper_slice"
+    },
+    {
+      "item": "goldyheart:lettuce_leaf"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "goldyheart:garlic"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:salad"
+  }
+}

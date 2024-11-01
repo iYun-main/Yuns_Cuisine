@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "goldyheart:parsley"
+    },
+    {
+      "item": "goldyheart:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:pumpkin_soup"
+  }
+}

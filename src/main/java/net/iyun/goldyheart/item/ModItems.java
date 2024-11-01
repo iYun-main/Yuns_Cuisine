@@ -245,7 +245,6 @@ public class ModItems {
     public static final Item BLACKSMITHHOESIGLWOOD = registerItem("blacksmith_hoe_sigl_wooden", new BlacksmithItem(new  Item.Settings()));
     public static final Item BLACKSMITHSWORDSIGLWOOD = registerItem("blacksmith_sword_sigl_wooden", new BlacksmithItem(new  Item.Settings()));
     public static final Item BLACKSMITHSHOVELSIGLWOOD = registerItem("blacksmith_shovel_sigl_wooden", new BlacksmithItem(new  Item.Settings()));
-  //  public static final Item ROPE = registerItem("rope", new RopeItem(new  Item.Settings()));
 
 
     public static final Item SANDBREAD = registerItem("sand_bread", new Item(new  Item.Settings().food(ModFoodComponents.SANDBREAD)));
@@ -260,7 +259,6 @@ public class ModItems {
     public static final Item MAGICCRYSTAL_6 = registerItem("rose_magic_crystal", new Item(new  Item.Settings()));
     public static final Item MAGICCRYSTAL_7 = registerItem("blood_crystal", new Item(new  Item.Settings()));
     public static final Item MAGICCRYSTAL_8 = registerItem("pure_crystal", new Item(new  Item.Settings()));
-//    public static final Item VOID = registerItem("void", new VoidItem(new  Item.Settings()));
 
 // The knives
 

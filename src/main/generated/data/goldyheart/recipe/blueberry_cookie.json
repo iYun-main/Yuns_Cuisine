@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "goldyheart:dough"
+    },
+    "X": {
+      "item": "goldyheart:blueberry"
+    }
+  },
+  "pattern": [
+    "WXW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:blueberry_cookie"
+  }
+}

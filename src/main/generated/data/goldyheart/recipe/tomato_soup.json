@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:cut_tomato"
+    },
+    {
+      "item": "goldyheart:cut_tomato"
+    },
+    {
+      "item": "goldyheart:cut_tomato"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "goldyheart:parsley"
+    },
+    {
+      "item": "goldyheart:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:tomato_soup"
+  }
+}

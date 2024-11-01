@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:sweet_berry_cake"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "goldyheart:sweet_berry_cake_slice"
+  }
+}

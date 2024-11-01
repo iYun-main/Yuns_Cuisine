@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:dough"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "goldyheart:salt"
+    },
+    {
+      "item": "goldyheart:chilli"
+    },
+    {
+      "item": "goldyheart:parsley"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:noodles"
+  }
+}

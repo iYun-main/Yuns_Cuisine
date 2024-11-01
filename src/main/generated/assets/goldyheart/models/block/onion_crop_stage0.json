@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "goldyheart:block/onion_crop_stage0"
+  }
+}

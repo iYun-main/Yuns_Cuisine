@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:corn"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:corn_seeds"
+  }
+}

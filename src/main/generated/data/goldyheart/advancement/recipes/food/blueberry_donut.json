@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blueberry_jam": {
+      "conditions": {
+        "items": [
+          {
+            "items": "goldyheart:blueberry_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:blueberry_donut"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_blueberry_jam"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:blueberry_donut"
+    ]
+  }
+}

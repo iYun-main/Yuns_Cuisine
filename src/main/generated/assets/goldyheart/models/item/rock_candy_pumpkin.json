@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "goldyheart:item/rock_candy_pumpkin"
+  }
+}

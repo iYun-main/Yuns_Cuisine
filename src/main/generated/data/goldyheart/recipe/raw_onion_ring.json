@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:onion_slice"
+    },
+    {
+      "item": "goldyheart:dough"
+    },
+    {
+      "item": "goldyheart:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:raw_onion_ring"
+  }
+}

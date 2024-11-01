@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:butter"
+    },
+    {
+      "item": "goldyheart:pepper"
+    },
+    {
+      "item": "goldyheart:parsley"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:buttered_potato"
+  }
+}

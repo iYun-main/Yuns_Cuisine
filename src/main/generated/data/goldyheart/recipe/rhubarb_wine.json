@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:rhubarb"
+    },
+    {
+      "item": "goldyheart:rhubarb"
+    },
+    {
+      "item": "goldyheart:rhubarb"
+    },
+    {
+      "item": "goldyheart:rhubarb"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:rhubarb_wine"
+  }
+}

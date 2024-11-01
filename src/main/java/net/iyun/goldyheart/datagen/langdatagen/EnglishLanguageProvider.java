@@ -2,7 +2,6 @@ package net.iyun.goldyheart.datagen.langdatagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
-import net.iyun.goldyheart.block.ModBlocks;
 import net.iyun.goldyheart.item.ModItems;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -15,7 +14,6 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
-        translationBuilder.add(ModBlocks.WEATHERED_LEAVES,"Bog Leaves");
         translationBuilder.add(ModItems.WHISKEY,"Whiskey");
     }
 

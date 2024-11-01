@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:sugar"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "goldyheart:molten_sugar"
+    },
+    "X": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "pattern": [
+    "AXA",
+    "SW "
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:rock_candy_sweet_berry"
+  }
+}

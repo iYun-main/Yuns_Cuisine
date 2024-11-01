@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:lapis_block"
+    },
+    "X": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "WXW",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:lapis_berry"
+  }
+}

@@ -36,20 +36,5 @@ public class Goldy_HeartClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_TINY_LILLY, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_ASTROPHYLLIA, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ASTROPHYLLIA, RenderLayer.getCutout());
-
-            BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_TRAPDOOR, RenderLayer.getCutout());
-          BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SPIRAL_TRAPDOOR, RenderLayer.getCutout());
-          BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SPIRAL_DOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WEATHERED_LEAVES, RenderLayer.getCutout());
-         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WEATHERED_SAPLING, RenderLayer.getCutout());
-
-           BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ANCIENT_SAPLING, RenderLayer.getCutout());
-          BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SPIRAL_SAPLING, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SPIRAL_LEAVES, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DARK_SPIRAL_LEAVES, RenderLayer.getCutout());
-          BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DARK_SPIRAL_SAPLING, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ANCIENT_LEAVES, RenderLayer.getCutout());
-           BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OLD_SAPLING, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OLD_LEAVES, RenderLayer.getCutout());
     }
 }

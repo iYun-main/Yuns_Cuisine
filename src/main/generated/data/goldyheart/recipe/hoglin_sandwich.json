@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:salt"
+    },
+    {
+      "item": "goldyheart:chilli"
+    },
+    {
+      "item": "goldyheart:cheese"
+    },
+    {
+      "item": "goldyheart:cut_tomato"
+    },
+    {
+      "item": "goldyheart:cut_bread"
+    },
+    {
+      "item": "goldyheart:cooked_bacon"
+    },
+    {
+      "item": "goldyheart:onion_slice"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:hoglin_sandwich"
+  }
+}

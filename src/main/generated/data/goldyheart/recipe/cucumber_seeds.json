@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:cucumber_slice"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:cucumber_seeds"
+  }
+}

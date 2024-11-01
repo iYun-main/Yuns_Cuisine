@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:dough"
+    },
+    {
+      "item": "goldyheart:cut_tomato"
+    },
+    {
+      "item": "goldyheart:salt"
+    },
+    {
+      "item": "goldyheart:onion_slice"
+    },
+    {
+      "item": "goldyheart:parsley"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:spaghetti"
+  }
+}

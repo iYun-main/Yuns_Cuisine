@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:grape"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:grape_seeds"
+  }
+}

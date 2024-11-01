@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldyheart:dough"
+    },
+    {
+      "item": "goldyheart:salt"
+    },
+    {
+      "item": "goldyheart:butter"
+    },
+    {
+      "item": "goldyheart:butter"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "goldyheart:croissant"
+  }
+}
