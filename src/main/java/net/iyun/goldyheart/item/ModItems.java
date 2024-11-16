@@ -211,7 +211,7 @@ public class ModItems {
     public static final Item PICKELSTRAW = registerItem("pickled_strawberries", new GlobalPickleItem(new  Item.Settings().food(ModFoodComponents.GLOBALPICKELS)));
     public static final Item PICKELONION = registerItem("pickled_onion", new GlobalPickleItem(new  Item.Settings().food(ModFoodComponents.GLOBALPICKELS)));
     public static final Item PICKELCORN = registerItem("pickled_corn", new GlobalPickleItem(new  Item.Settings().food(ModFoodComponents.GLOBALPICKELS)));
-    public static final Item PICKELCHILLI = registerItem("pickled_chili", new GlobalPickleItem(new  Item.Settings().food(ModFoodComponents.GLOBALPICKELS)));
+    public static final Item PICKELCHILLI = registerItem("pickled_chilli", new GlobalPickleItem(new  Item.Settings().food(ModFoodComponents.GLOBALPICKELS)));
     public static final Item PICKELCARROT = registerItem("pickled_carrots", new GlobalPickleItem(new  Item.Settings().food(ModFoodComponents.GLOBALPICKELS)));
     public static final Item PICKELBLUE = registerItem("pickled_blueberries", new GlobalPickleItem(new  Item.Settings().food(ModFoodComponents.GLOBALPICKELS)));
     public static final Item PICKELBELL = registerItem("pickled_bellpepper", new GlobalPickleItem(new  Item.Settings().food(ModFoodComponents.GLOBALPICKELS)));
@@ -249,33 +249,7 @@ public class ModItems {
 
     public static final Item SANDBREAD = registerItem("sand_bread", new Item(new  Item.Settings().food(ModFoodComponents.SANDBREAD)));
 
-// Some crystals that r prob most likely gonna be used for trims
 
-    public static final Item MAGICCRYSTAL = registerItem("pink_magic_crystal", new Item(new  Item.Settings()));
-    public static final Item MAGICCRYSTAL_2 = registerItem("orange_magic_crystal", new Item(new  Item.Settings()));
-    public static final Item MAGICCRYSTAL_3 = registerItem("green_magic_crystal", new Item(new  Item.Settings()));
-    public static final Item MAGICCRYSTAL_4 = registerItem("blue_magic_crystal", new Item(new  Item.Settings()));
-    public static final Item MAGICCRYSTAL_5 = registerItem("red_magic_crystal", new Item(new  Item.Settings()));
-    public static final Item MAGICCRYSTAL_6 = registerItem("rose_magic_crystal", new Item(new  Item.Settings()));
-    public static final Item MAGICCRYSTAL_7 = registerItem("blood_crystal", new Item(new  Item.Settings()));
-    public static final Item MAGICCRYSTAL_8 = registerItem("pure_crystal", new Item(new  Item.Settings()));
-
-// The knives
-
-    public static final Item STONE_KNIFE = registerItem("stone_knive",
-            new KniveItem(ToolMaterials.STONE, 0, 0f, new  Item.Settings().maxCount(1).maxDamage(100)));
-
-    public static final Item IRON_KNIFE = registerItem("iron_knive",
-            new KniveItem(ToolMaterials.IRON, 1, 0f, new  Item.Settings().maxCount(1).maxDamage(250)));
-
-    public static final Item GOLD_KNIFE = registerItem("gold_knive",
-            new KniveItem(ToolMaterials.GOLD, 0, 0f, new  Item.Settings().maxCount(1).maxDamage(150)));
-
-    public static final Item DIAMOND_KNIFE = registerItem("diamond_knive",
-            new KniveItem(ToolMaterials.DIAMOND, 2, 0f, new  Item.Settings().maxCount(1).maxDamage(400)));
-
-    public static final Item NETHERITE_KNIFE = registerItem("netherite_knive",
-            new KniveItem(ToolMaterials.NETHERITE, 3, 0f, new  Item.Settings().maxCount(1).maxDamage(550)));
 
 
     private static Item registerItem(String name, Item item){

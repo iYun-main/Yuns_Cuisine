@@ -239,43 +239,6 @@ public class ModItemGroups {
                     }).build());
 
 
-    //   public static final ItemGroup AGOLDYRP = Registry.register(Registries.ITEM_GROUP,
-    //      new Identifier(Goldy_Heart.MOD_ID,"brpitem"),
-    //      FabricItemGroup.builder().displayName(Text.translatable("itemgroup.brpitem"))
-    //            .icon(() -> new ItemStack(ModItems.COPPERBERRY)).entries((displayContext, entries) -> {
-    //            entries.add(ModItems.MANACRYSTAL);
-    //            entries.add(ModItems.MANACRYSTAL_2);
-    //            entries.add(ModItems.MANACRYSTAL_3);
-    //            entries.add(ModItems.WORM);
-    //            entries.add(ModItems.WORMBOWL);
-    //            entries.add(ModItems.CANOFWORMS);
-    //            entries.add(ModItems.LEATHERWHIP);
-    //            entries.add(ModItems.MERMAIDTAIL);
-    //            entries.add(ModItems.MANA_EMBER);
-    //            entries.add(ModItems.MECH_SCREW);
-    //            entries.add(ModItems.RODWITHWORM);
-    //            entries.add(ModItems.LOOT_1);
-    //            entries.add(ModItems.LOOT_2);
-    //            entries.add(ModItems.LOOT_3);
-    //            entries.add(ModItems.LOOT_4);
-    //            entries.add(ModItems.LOOT_5);
-    //            entries.add(ModItems.LOOT_6);
-    //            entries.add(ModItems.LOOT_7);
-    //            entries.add(ModItems.LOOT_8);
-    //            entries.add(ModItems.LOOT_9);
-    //            entries.add(ModItems.LOOT_10);
-    //            entries.add(ModItems.LOOT_11);
-    //            entries.add(ModItems.LOOT_12);
-    //            entries.add(ModItems.LOOT_13);
-    //            entries.add(ModItems.LOOT_14);
-    //            entries.add(ModItems.LOOT_15);
-    //            entries.add(ModItems.LOOT_16);
-    //            entries.add(ModItems.LOOT_17);
-    ////            entries.add(ModItems.LOOT_18);
-    //          entries.add(ModItems.LOOT_19);
-    //            entries.add(ModItems.LOOT_20);
-    //            }).build());
-
     public static final ItemGroup AGOLDYFARMING = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Goldy_Heart.MOD_ID,"aafarming"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.aafarming"))
@@ -297,32 +260,9 @@ public class ModItemGroups {
                     entries.add(ModItems.RUHBARBSEEDS);
                     entries.add(ModItems.ANCIENTSEEDS);
                     entries.add(ModItems.HOPSEEDS);
-                    }).build());
-
-    public static final ItemGroup AGOLDYVOIDSTORAGE = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(Goldy_Heart.MOD_ID,"astori"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.astori"))
-                    .icon(() -> new ItemStack(ModItems.LAPISBERRY)).entries((displayContext, entries) -> {
-                    entries.add(ModItems.MAGICCRYSTAL);
-                    entries.add(ModItems.MAGICCRYSTAL_2);
-                    entries.add(ModItems.MAGICCRYSTAL_3);
-                    entries.add(ModItems.MAGICCRYSTAL_4);
-                    entries.add(ModItems.MAGICCRYSTAL_5);
-                    entries.add(ModItems.MAGICCRYSTAL_6);
-                    entries.add(ModItems.MAGICCRYSTAL_7);
-                    entries.add(ModItems.MAGICCRYSTAL_8);
-                    entries.add(ModItems.STONE_KNIFE);
-                    entries.add(ModItems.IRON_KNIFE);
-                    entries.add(ModItems.GOLD_KNIFE);
-                    entries.add(ModItems.DIAMOND_KNIFE);
-                    entries.add(ModItems.NETHERITE_KNIFE);
-                    entries.add(ModItems.BLACKSMITHPICKSIGLWOOD);
-                    entries.add(ModItems.BLACKSMITHAXESIGLWOOD);
-                    entries.add(ModItems.BLACKSMITHHOESIGLWOOD);
-                    entries.add(ModItems.BLACKSMITHSHOVELSIGLWOOD);
-                    entries.add(ModItems.BLACKSMITHSWORDSIGLWOOD);
                     entries.add(ModItems.BIGBOWL);
                     }).build());
+
 
     public static void registerItemGroups() {
         Goldy_Heart.LOGGER.info("Loading Item Tabs of "+Goldy_Heart.MOD_ID);

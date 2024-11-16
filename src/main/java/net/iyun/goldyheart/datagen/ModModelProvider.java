@@ -219,9 +219,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FRIEDONIONRING, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHEESEPIE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CUCUMBERSLICE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.STONE_KNIFE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.GOLD_KNIFE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.IRON_KNIFE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BELLPEPPER, Models.GENERATED);
         itemModelGenerator.register(ModItems.BELLPEPPERSLICE, Models.GENERATED);
         itemModelGenerator.register(ModItems.GARLICBREAD, Models.GENERATED);
@@ -265,15 +262,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GLOWCOOKIE, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLUEBERJAM, Models.GENERATED);
         itemModelGenerator.register(ModItems.STRAWJAM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MAGICCRYSTAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLUEBERSMOOTHIE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MAGICCRYSTAL_2, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MAGICCRYSTAL_3, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MAGICCRYSTAL_4, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MAGICCRYSTAL_5, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MAGICCRYSTAL_6, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MAGICCRYSTAL_7, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MAGICCRYSTAL_8, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHOCOSTRAWBERRY, Models.GENERATED);
         itemModelGenerator.register(ModItems.APPLEMUFFIN, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUFFIN, Models.GENERATED);
@@ -304,8 +293,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RHUBARB, Models.GENERATED);
         itemModelGenerator.register(ModItems.MELONCOOKIE, Models.GENERATED);
         itemModelGenerator.register(ModItems.SANDBREAD, Models.GENERATED);
-        itemModelGenerator.register(ModItems.DIAMOND_KNIFE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.NETHERITE_KNIFE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.CANDIED_APPLE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CANDIED_BEET, Models.HANDHELD);

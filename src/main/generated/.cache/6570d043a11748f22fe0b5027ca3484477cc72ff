@@ -1,4 +1,4 @@
-// 1.21	2024-11-01T14:22:36.8535857	Goldy Heart/Recipes
+// 1.21	2024-11-15T19:13:39.1919265	Goldy Heart/Recipes
 132a6f824588f3d438e61ac84ae9d7d7890fbfb1 data\goldyheart\recipe\coffee.json
 e5bb1f2cf042624ddd8046782e0140842b53755f data\goldyheart\recipe\toast.json
 7dbb7a818f91ebefaef61480bc738e606a1793cd data\goldyheart\advancement\recipes\food\lettuce_leaf.json
@@ -35,6 +35,7 @@ d4babca27dcf0b6feb2788255e4fb606aad850cd data\goldyheart\advancement\recipes\foo
 aed77ad3c6a802b113022ebff3fa78afd832ea29 data\goldyheart\recipe\salt.json
 9965d2b16721a7c6f71d701d87d511a2d8800810 data\goldyheart\recipe\strawberry_cookie.json
 d61419b4487a89933e7d319894d2e60604557383 data\goldyheart\advancement\recipes\food\sweet_berry_cake_slice.json
+f9d23f3f2ba4a6df403bd78aafd746c534b7fd68 data\goldyheart\recipe\pickled_chilli.json
 330d30029c998e924e3a131c9f6c63698b995f09 data\goldyheart\advancement\recipes\food\cut_bread.json
 0f5ea30cd67739e95e356c23cf08d4e5323011b9 data\goldyheart\advancement\recipes\food\chocolate_muffin.json
 2f5818838fe7b53eecb47414986330427425704a data\goldyheart\advancement\recipes\food\sweet_berry_muffin.json
@@ -189,7 +190,6 @@ ffd9f505f514d5f7ad46f50cbe5cda945cbe5d18 data\goldyheart\recipe\cheese.json
 153d81989677fb95253c29c12df5fb27ad0c9109 data\goldyheart\recipe\truffle.json
 7661f740ad77f27702004dc864b90ebb3f7e8ff6 data\goldyheart\advancement\recipes\food\egg_on_bread.json
 a3f427643260d35c8f28e6c799830b6524f17acd data\goldyheart\advancement\recipes\food\toast_with_bacon.json
-8ee92dde2b0024c0aa98e3a9f6269a5065084336 data\goldyheart\recipe\pickled_chili.json
 58c15fc46fd0d341d6a5a7e5f50da310ae31978c data\goldyheart\recipe\taffy.json
 0cdaa1a9fd9e42d13d3440738258730bbae4723a data\goldyheart\recipe\glow_berry_cookie.json
 c20fe4e0b3ac6b29eb5cd8c2b0dab5b277a32693 data\goldyheart\advancement\recipes\building_blocks\stone_stairs.json
@@ -263,6 +263,7 @@ e254cc029da9a9d4ed3a7182a7af5e92589c8d9c data\goldyheart\recipe\nether_brick_sta
 a3903d84449ff2c83914f9693a8f28a4d7320eed data\goldyheart\recipe\emerald_berry.json
 27e82b4838c7013501d7940d291271d29fd39100 data\goldyheart\advancement\recipes\building_blocks\deepslate_tile_stairs.json
 5dbbf85adfda468ec431ac1daaea33a0340413af data\goldyheart\recipe\sweet_berry_cake.json
+66c38e62fadc35aa050e5169ad79fdee8279fdf6 data\goldyheart\advancement\recipes\food\pickled_chilli.json
 4d6902b38f34c0315df2bd606a548d949a5ec771 data\goldyheart\recipe\glow_berry_muffin.json
 7b3aa80e702214d0ef6eb3bf7b724ba2b4849901 data\goldyheart\recipe\steak_and_potato.json
 76ce862b98a3fa289fb3be93de82371cb82b7560 data\goldyheart\advancement\recipes\food\pickles.json
@@ -428,7 +429,6 @@ b5e3ea412b9f6a3273911ca011a75e3cd17369ff data\goldyheart\advancement\recipes\foo
 abc055af7593c670d5c874713a6e338235c9df01 data\goldyheart\recipe\blueberry_smoothie.json
 feaf9ed219885e7edf963072c882c0f426f6541d data\goldyheart\recipe\rock_candy_beetroot.json
 3b9e5e187bbee7f63266ab69a1b233ad0c2a31b2 data\goldyheart\advancement\recipes\food\bucket_of_pepper.json
-abed0d01317707cbdabf7067a14906ec2c9994ff data\goldyheart\advancement\recipes\food\pickled_chili.json
 f5f7d44f0e72b57daf6f0570ea428966f876ab8e data\goldyheart\advancement\recipes\building_blocks\cobbled_deepslate_stairs.json
 de371a40b6998fff99d9556861f2790c7e57ed54 data\goldyheart\advancement\recipes\food\carrot_cake_slice.json
 33d6db785a2e3610634d90e7022d4ff0faea2c29 data\goldyheart\recipe\blackstone_stairs.json

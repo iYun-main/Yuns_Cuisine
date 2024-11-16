@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "goldyheart:item/pure_crystal"
+    "layer0": "goldyheart:item/pickled_chilli"
   }
 }

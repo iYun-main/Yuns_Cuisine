@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:pickled_chili"
+        "recipe": "minecraft:pickled_chilli"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:pickled_chili"
+      "minecraft:pickled_chilli"
     ]
   }
 }
