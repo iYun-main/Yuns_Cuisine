@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "goldyheart:block/blueber_bush_stage3"
-  }
-}

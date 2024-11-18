@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "goldyheart:item/candied_spider_eye"
-  }
-}

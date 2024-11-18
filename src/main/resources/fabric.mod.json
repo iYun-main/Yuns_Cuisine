@@ -1,34 +1,33 @@
 {
 	"schemaVersion": 1,
-	"id": "goldyheart",
+	"id": "yunscuisine",
 	"version": "${version}",
-	"name": "Goldy Heart",
+	"name": "Yun`s Cuisine",
 	"description": "A tiny Mod that adds 1-2 Crops and Foods",
 	"authors": [
 		"iYun_",
 		"inkgum"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/project/goldy-heart",
-		"sources": "https://github.com/iYun-main/goldyheart",
+		"homepage": "https://modrinth.com/mod/yuns_cuisine",
 		"issues": "https://discord.com/invite/U6dvJN7w5g"
 	},
 	"license": "ARR",
-	"icon": "assets/goldyheart/icon.png",
+	"icon": "assets/yunscuisine/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.iyun.goldyheart.Goldy_Heart"
+			"net.iyun.yunscuisine.Yuns_Cuisine"
 		],
 		"client": [
-			"net.iyun.goldyheart.Goldy_HeartClient"
+			"net.iyun.yunscuisine.Yuns_CuisineClient"
 		],
 		"fabric-datagen": [
-			"net.iyun.goldyheart.Goldy_HeartDataGenerator"
+			"net.iyun.yunscuisine.Yuns_CuisineDataGenerator"
 		]
 	},
 	"mixins": [
-		"goldyheart.mixins.json"
+		"yunscuisine.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.5",
