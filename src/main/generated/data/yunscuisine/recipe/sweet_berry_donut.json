@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:sweet_berry_jam"
+    },
+    {
+      "item": "yunscuisine:donut"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:sweet_berry_donut"
+  }
+}

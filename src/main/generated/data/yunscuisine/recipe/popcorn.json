@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "yunscuisine:corn"
+    },
+    {
+      "item": "yunscuisine:corn"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:popcorn"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "yunscuisine:strawberry"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:chocolate_strawberry"
+  }
+}

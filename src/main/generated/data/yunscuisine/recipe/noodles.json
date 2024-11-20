@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:dough"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "yunscuisine:chilli"
+    },
+    {
+      "item": "yunscuisine:parsley"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:noodles"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:cheese"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "yunscuisine:dough"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:cheese_pie"
+  }
+}

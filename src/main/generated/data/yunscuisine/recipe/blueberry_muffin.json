@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:blueberry"
+    },
+    {
+      "item": "yunscuisine:blueberry"
+    },
+    {
+      "item": "yunscuisine:muffin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:blueberry_muffin"
+  }
+}

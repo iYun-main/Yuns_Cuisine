@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 120,
+  "experience": 1.0,
+  "group": "cooked_bacon",
+  "ingredient": {
+    "item": "yunscuisine:raw_bacon"
+  },
+  "result": {
+    "id": "yunscuisine:cooked_bacon"
+  }
+}

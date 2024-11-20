@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:melon_cake"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "yunscuisine:watermelon_cake_slice"
+  }
+}

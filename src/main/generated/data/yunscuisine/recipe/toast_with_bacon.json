@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:toasted_toast"
+    },
+    {
+      "item": "yunscuisine:cooked_bacon"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:toast_with_bacon"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_baked_potato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:steak_and_potato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:steak_and_potato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cooked_beef": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:steak_and_potato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_parsley": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:steak_and_potato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:steak_and_potato"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cooked_beef",
+      "has_bowl",
+      "has_parsley",
+      "has_baked_potato"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:steak_and_potato"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "yunscuisine:muffin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:apple_muffin"
+  }
+}

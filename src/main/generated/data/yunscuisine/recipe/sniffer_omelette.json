@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:big_wooden_bowl"
+    },
+    {
+      "item": "yunscuisine:boiled_sniffer_egg"
+    },
+    {
+      "item": "yunscuisine:boiled_sniffer_egg"
+    },
+    {
+      "item": "yunscuisine:boiled_egg"
+    },
+    {
+      "item": "yunscuisine:boiled_egg"
+    },
+    {
+      "item": "yunscuisine:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:sniffer_omelette"
+  }
+}

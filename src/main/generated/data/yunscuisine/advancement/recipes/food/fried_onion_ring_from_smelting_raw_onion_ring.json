@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_onion_ring": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:raw_onion_ring"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:fried_onion_ring_from_smelting_raw_onion_ring"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_onion_ring"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:fried_onion_ring_from_smelting_raw_onion_ring"
+    ]
+  }
+}

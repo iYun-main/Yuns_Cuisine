@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "yunscuisine:muffin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:glow_berry_muffin"
+  }
+}

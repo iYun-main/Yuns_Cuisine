@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:fried_egg"
+    },
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:egg_on_bread"
+  }
+}

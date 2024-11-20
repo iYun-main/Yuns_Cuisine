@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 150,
+  "experience": 1.0,
+  "group": "toasted_toast",
+  "ingredient": {
+    "item": "yunscuisine:toast"
+  },
+  "result": {
+    "id": "yunscuisine:toasted_toast"
+  }
+}

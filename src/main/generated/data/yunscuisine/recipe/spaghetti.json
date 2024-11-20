@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:dough"
+    },
+    {
+      "item": "yunscuisine:cut_tomato"
+    },
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "yunscuisine:onion_slice"
+    },
+    {
+      "item": "yunscuisine:parsley"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:spaghetti"
+  }
+}

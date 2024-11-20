@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:lettuce_leaf"
+    },
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "yunscuisine:rice"
+    },
+    {
+      "item": "yunscuisine:onion"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "yunscuisine:cabbage_meat_roll"
+  }
+}

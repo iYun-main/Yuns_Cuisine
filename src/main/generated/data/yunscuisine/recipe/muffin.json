@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "yunscuisine:dough"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "yunscuisine:muffin"
+  }
+}

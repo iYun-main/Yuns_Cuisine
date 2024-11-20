@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:marshmallow"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:marshmallow_stick"
+  }
+}

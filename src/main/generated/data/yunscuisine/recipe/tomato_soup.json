@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:cut_tomato"
+    },
+    {
+      "item": "yunscuisine:cut_tomato"
+    },
+    {
+      "item": "yunscuisine:cut_tomato"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "yunscuisine:parsley"
+    },
+    {
+      "item": "yunscuisine:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:tomato_soup"
+  }
+}

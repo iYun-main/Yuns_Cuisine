@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:glow_berry_jam"
+    },
+    {
+      "item": "yunscuisine:donut"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:glow_berry_donut"
+  }
+}

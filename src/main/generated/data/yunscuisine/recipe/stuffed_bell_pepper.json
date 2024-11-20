@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "yunscuisine:bell_pepper"
+    },
+    {
+      "item": "yunscuisine:cheese"
+    },
+    {
+      "item": "yunscuisine:butter"
+    },
+    {
+      "item": "yunscuisine:parsley"
+    },
+    {
+      "item": "yunscuisine:rice"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:stuffed_bell_pepper"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:ancient_fruit"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:ancient_seeds"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "yunscuisine:chilli"
+    },
+    {
+      "item": "yunscuisine:cheese"
+    },
+    {
+      "item": "yunscuisine:cut_tomato"
+    },
+    {
+      "item": "yunscuisine:cut_bread"
+    },
+    {
+      "item": "yunscuisine:cooked_bacon"
+    },
+    {
+      "item": "yunscuisine:onion_slice"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:hoglin_sandwich"
+  }
+}

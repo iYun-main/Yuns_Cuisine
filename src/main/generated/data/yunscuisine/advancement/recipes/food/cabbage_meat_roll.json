@@ -1,0 +1,76 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cooked_porkchop": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:cabbage_meat_roll"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lettuce_leaf": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:cabbage_meat_roll"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_onion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:cabbage_meat_roll"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:cabbage_meat_roll"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:cabbage_meat_roll"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cabbage_meat_roll"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cooked_porkchop",
+      "has_salt",
+      "has_rice",
+      "has_lettuce_leaf",
+      "has_onion"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cabbage_meat_roll"
+    ]
+  }
+}

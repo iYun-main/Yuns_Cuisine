@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "yunscuisine:cooked_bacon"
+    },
+    {
+      "item": "yunscuisine:parsley"
+    },
+    {
+      "item": "yunscuisine:butter"
+    },
+    {
+      "item": "yunscuisine:cheese"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:stuffed_mushroom"
+  }
+}

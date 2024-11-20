@@ -1,0 +1,98 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bell_pepper_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:veggie_maki"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_carrot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:veggie_maki"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cucumber_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:veggie_maki"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dried_kelp": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:veggie_maki"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_onion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:veggie_maki"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:veggie_maki"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:veggie_maki"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:veggie_maki"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dried_kelp",
+      "has_carrot",
+      "has_cucumber_slice",
+      "has_bell_pepper_slice",
+      "has_onion",
+      "has_salt",
+      "has_rice"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:veggie_maki"
+    ]
+  }
+}

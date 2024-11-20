@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "yunscuisine:block/cucumber_crop_stage2"
+  }
+}

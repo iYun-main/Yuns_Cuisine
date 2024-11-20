@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:lettuce_leaf"
+    },
+    {
+      "item": "yunscuisine:toast"
+    },
+    {
+      "item": "yunscuisine:onion_slice"
+    },
+    {
+      "item": "yunscuisine:cheese"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "yunscuisine:cut_tomato"
+    },
+    {
+      "item": "yunscuisine:cucumber_slice"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:veggie_sandwich"
+  }
+}

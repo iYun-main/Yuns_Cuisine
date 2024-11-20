@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "yunscuisine:block/rhubarb_crop_stage7"
+  }
+}

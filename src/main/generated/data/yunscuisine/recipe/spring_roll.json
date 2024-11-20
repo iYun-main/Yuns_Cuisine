@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:dough"
+    },
+    {
+      "item": "yunscuisine:pepper"
+    },
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "yunscuisine:cut_tomato"
+    },
+    {
+      "item": "yunscuisine:cucumber_slice"
+    },
+    {
+      "item": "yunscuisine:bell_pepper_slice"
+    },
+    {
+      "item": "yunscuisine:chilli"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:spring_roll"
+  }
+}

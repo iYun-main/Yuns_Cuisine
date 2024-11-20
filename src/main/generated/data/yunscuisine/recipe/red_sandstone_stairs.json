@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "X": {
+      "item": "minecraft:red_sandstone"
+    }
+  },
+  "pattern": [
+    "X ",
+    "XX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:red_sandstone_stairs"
+  }
+}

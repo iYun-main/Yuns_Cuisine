@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "yunscuisine:dough"
+    },
+    {
+      "item": "yunscuisine:lettuce_leaf"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "yunscuisine:dumpling"
+  }
+}

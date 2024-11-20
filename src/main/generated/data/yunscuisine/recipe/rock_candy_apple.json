@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:sugar"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "yunscuisine:molten_sugar"
+    },
+    "X": {
+      "item": "minecraft:apple"
+    }
+  },
+  "pattern": [
+    "AXA",
+    "SW "
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:rock_candy_apple"
+  }
+}

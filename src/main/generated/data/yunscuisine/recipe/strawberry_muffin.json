@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:strawberry"
+    },
+    {
+      "item": "yunscuisine:strawberry"
+    },
+    {
+      "item": "yunscuisine:muffin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:strawberry_muffin"
+  }
+}

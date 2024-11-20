@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "yunscuisine:parsley"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:steak_and_potato"
+  }
+}

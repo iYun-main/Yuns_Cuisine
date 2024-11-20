@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "yunscuisine:corn"
+    }
+  ],
+  "result": {
+    "count": 5,
+    "id": "yunscuisine:candy_corn"
+  }
+}

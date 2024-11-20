@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "yunscuisine:parsley"
+    },
+    {
+      "item": "yunscuisine:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:pumpkin_soup"
+  }
+}

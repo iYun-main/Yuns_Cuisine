@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:hops"
+    },
+    {
+      "item": "yunscuisine:hops"
+    },
+    {
+      "item": "yunscuisine:hops"
+    },
+    {
+      "item": "yunscuisine:hops"
+    },
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:whiskey"
+  }
+}

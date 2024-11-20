@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_salmon"
+    },
+    {
+      "item": "yunscuisine:rice"
+    },
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "yunscuisine:nigiri_sushi"
+  }
+}

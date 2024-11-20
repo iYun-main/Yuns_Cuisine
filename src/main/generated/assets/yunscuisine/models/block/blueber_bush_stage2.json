@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "yunscuisine:block/blueber_bush_stage2"
+  }
+}

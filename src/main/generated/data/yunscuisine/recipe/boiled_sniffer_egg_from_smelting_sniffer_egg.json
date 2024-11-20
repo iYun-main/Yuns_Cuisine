@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 120,
+  "experience": 1.0,
+  "group": "sniifering",
+  "ingredient": {
+    "item": "minecraft:sniffer_egg"
+  },
+  "result": {
+    "id": "yunscuisine:boiled_sniffer_egg"
+  }
+}

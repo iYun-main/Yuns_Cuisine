@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:butter"
+    },
+    {
+      "item": "yunscuisine:pepper"
+    },
+    {
+      "item": "yunscuisine:parsley"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:buttered_potato"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:cucumber"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "yunscuisine:cucumber_slice"
+  }
+}

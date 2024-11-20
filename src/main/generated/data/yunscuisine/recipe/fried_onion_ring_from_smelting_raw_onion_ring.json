@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 120,
+  "experience": 0.3,
+  "group": "onionringcooked",
+  "ingredient": {
+    "item": "yunscuisine:raw_onion_ring"
+  },
+  "result": {
+    "id": "yunscuisine:fried_onion_ring"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:pizza"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "yunscuisine:pizza_slice"
+  }
+}

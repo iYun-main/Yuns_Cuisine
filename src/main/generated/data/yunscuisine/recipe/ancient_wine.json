@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:ancient_fruit"
+    },
+    {
+      "item": "yunscuisine:ancient_fruit"
+    },
+    {
+      "item": "yunscuisine:ancient_fruit"
+    },
+    {
+      "item": "yunscuisine:ancient_fruit"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:ancient_wine"
+  }
+}

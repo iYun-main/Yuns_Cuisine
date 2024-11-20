@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:bucket_of_pepper"
+  }
+}

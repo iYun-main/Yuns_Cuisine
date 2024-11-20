@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "yunscuisine:item/sweet_berry_donut"
+  }
+}

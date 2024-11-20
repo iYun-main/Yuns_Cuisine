@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:candied_spider_eye"
+    },
+    {
+      "item": "yunscuisine:candied_spider_eye"
+    },
+    {
+      "item": "yunscuisine:candied_spider_eye"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "yunscuisine:parsley"
+    },
+    {
+      "item": "yunscuisine:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:spider_eye_soup"
+  }
+}

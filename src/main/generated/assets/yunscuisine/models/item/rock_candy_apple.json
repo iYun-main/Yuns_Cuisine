@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "yunscuisine:item/rock_candy_apple"
+  }
+}

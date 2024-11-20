@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:buttered_potato"
+    },
+    {
+      "item": "yunscuisine:pepper"
+    },
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:mashed_potatoes"
+  }
+}

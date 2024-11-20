@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:beetroot_jam"
+    },
+    {
+      "item": "yunscuisine:donut"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:beetroot_donut"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:beetroot_cake"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "yunscuisine:beetroot_cake_slice"
+  }
+}

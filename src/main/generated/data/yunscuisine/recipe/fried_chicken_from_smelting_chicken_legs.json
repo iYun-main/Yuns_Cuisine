@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 120,
+  "experience": 1.0,
+  "group": "chickenleggy",
+  "ingredient": {
+    "item": "yunscuisine:chicken_legs"
+  },
+  "result": {
+    "id": "yunscuisine:fried_chicken"
+  }
+}

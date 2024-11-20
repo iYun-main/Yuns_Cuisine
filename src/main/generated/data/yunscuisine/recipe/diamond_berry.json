@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:diamond"
+    },
+    "X": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "WXW",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:diamond_berry"
+  }
+}

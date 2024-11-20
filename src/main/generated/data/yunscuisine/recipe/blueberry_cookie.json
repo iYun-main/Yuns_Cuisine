@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "yunscuisine:dough"
+    },
+    "X": {
+      "item": "yunscuisine:blueberry"
+    }
+  },
+  "pattern": [
+    "WXW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:blueberry_cookie"
+  }
+}

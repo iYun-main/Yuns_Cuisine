@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:cut_bread"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "yunscuisine:cheese"
+    },
+    {
+      "item": "yunscuisine:cut_tomato"
+    },
+    {
+      "item": "yunscuisine:fried_egg"
+    },
+    {
+      "item": "yunscuisine:cucumber_slice"
+    },
+    {
+      "item": "yunscuisine:onion_slice"
+    },
+    {
+      "item": "yunscuisine:lettuce_leaf"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:burger"
+  }
+}

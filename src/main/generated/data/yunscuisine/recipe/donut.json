@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "yunscuisine:butter"
+    },
+    {
+      "item": "yunscuisine:dough"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "yunscuisine:donut"
+  }
+}

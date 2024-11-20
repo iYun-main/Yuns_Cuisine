@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:garlic"
+    },
+    {
+      "item": "yunscuisine:parsley"
+    },
+    {
+      "item": "yunscuisine:cut_bread"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:garlic_bread"
+  }
+}

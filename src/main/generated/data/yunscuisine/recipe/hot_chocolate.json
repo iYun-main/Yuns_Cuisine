@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "yunscuisine:marshmallow"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "yunscuisine:hot_chocolate"
+  }
+}

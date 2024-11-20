@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:corn"
+    },
+    {
+      "item": "yunscuisine:corn"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "yunscuisine:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:pickled_corn"
+  }
+}

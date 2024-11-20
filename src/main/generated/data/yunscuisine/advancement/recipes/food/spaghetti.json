@@ -1,0 +1,87 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:spaghetti"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cut_tomato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:spaghetti"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:spaghetti"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_onion_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:spaghetti"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_parsley": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:spaghetti"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:spaghetti"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:spaghetti"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dough",
+      "has_cut_tomato",
+      "has_onion_slice",
+      "has_salt",
+      "has_parsley",
+      "has_bowl"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:spaghetti"
+    ]
+  }
+}

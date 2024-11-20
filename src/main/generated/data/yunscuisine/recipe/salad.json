@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:cucumber_slice"
+    },
+    {
+      "item": "yunscuisine:cut_tomato"
+    },
+    {
+      "item": "yunscuisine:bell_pepper_slice"
+    },
+    {
+      "item": "yunscuisine:lettuce_leaf"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "yunscuisine:garlic"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:salad"
+  }
+}

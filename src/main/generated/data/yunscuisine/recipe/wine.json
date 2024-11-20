@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:grape"
+    },
+    {
+      "item": "yunscuisine:grape"
+    },
+    {
+      "item": "yunscuisine:grape"
+    },
+    {
+      "item": "yunscuisine:grape"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:wine"
+  }
+}

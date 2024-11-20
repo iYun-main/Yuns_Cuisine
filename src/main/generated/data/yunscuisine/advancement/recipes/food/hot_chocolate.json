@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cocoa_beans": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:hot_chocolate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_marshmallow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:hot_chocolate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_milk_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:hot_chocolate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sugar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:hot_chocolate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:hot_chocolate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_milk_bucket",
+      "has_sugar",
+      "has_marshmallow",
+      "has_cocoa_beans"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:hot_chocolate"
+    ]
+  }
+}

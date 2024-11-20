@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sweet_berry_cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:sweet_berry_cake"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sweet_berry_cake_slice"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sweet_berry_cake"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sweet_berry_cake_slice"
+    ]
+  }
+}

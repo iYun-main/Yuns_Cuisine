@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:chorus_cake"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "yunscuisine:chorus_cake_slice"
+  }
+}

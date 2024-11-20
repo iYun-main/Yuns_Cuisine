@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "yunscuisine:block/parsley_crop_stage0"
+  }
+}

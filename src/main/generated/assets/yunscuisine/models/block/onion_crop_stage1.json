@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "yunscuisine:block/onion_crop_stage1"
+  }
+}
