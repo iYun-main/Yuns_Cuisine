@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 110,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "goldyheart:chicken_legs"
+  },
+  "result": "goldyheart:fried_chicken"
+}
