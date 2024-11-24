@@ -8,7 +8,7 @@ https://modrinth.com/mod/yuns-cuisine
 If the mod is on any other sites besides the above ones. DO NOT DOWNLOAD THEM FROM THOSE SITES.
 If another project pops up under this name please make sure you have the right Github page
 
-https://github.com/iYun-main/Yuns-Cuisine
+https://github.com/iYun-main/Yuns_Cuisine
 
 This was formerly made for a Nation Server
 
