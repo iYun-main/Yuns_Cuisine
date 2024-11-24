@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup AGOLDYFOOD = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Yuns_Cuisine.MOD_ID,"aaaafood"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.aaaafood"))
+            FabricItemGroup.builder().displayName(Text.literal("Yuns Foods"))
                     .icon(() -> new ItemStack(ModItems.NETHERITEBERRY)).entries((displayContext, entries) -> {
                     entries.add(ModItems.ANCIENTFRUIT);
                     entries.add(ModItems.SALT);
@@ -233,7 +233,7 @@ public class ModItemGroups {
 
     public static final ItemGroup AGOLDYFARMING = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Yuns_Cuisine.MOD_ID,"aafarming"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.aafarming"))
+            FabricItemGroup.builder().displayName(Text.literal("Yuns Farming"))
                     .icon(() -> new ItemStack(ModItems.AMETHYSTBERRY)).entries((displayContext, entries) -> {
                     entries.add(ModItems.CUCUMBERSEEDS);
                     entries.add(ModItems.GRAPESEEDS);
