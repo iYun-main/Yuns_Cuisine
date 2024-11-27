@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.iyun.yunscuisine.item.ModItems;
 import net.minecraft.registry.RegistryWrapper;
 
+import java.nio.file.Path;
 import java.util.concurrent.CompletableFuture;
 
 public class EnglishLanguageProvider extends FabricLanguageProvider {
@@ -21,14 +22,14 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.BUCKETOFSALT,"Bucket of Salt");
         translationBuilder.add(ModItems.PEPPER,"Pepper");
         translationBuilder.add(ModItems.BUCKETOFPEPPER,"Bucket of Pepper");
-        translationBuilder.add(ModItems.MARSHMELLOW,"Marshmellow");
-        translationBuilder.add(ModItems.MARSHMELLOWSTICK,"Marshmellow on a Stick");
-        translationBuilder.add(ModItems.COOKEDMARSHMELLOW,"Cooked Marshmellow");
-        translationBuilder.add(ModItems.COOKEDMARSHMELLOWSTICK,"Cooked Marshmellow on a Stick");
-        translationBuilder.add(ModItems.SLIGHTLYCOOKEDMARSHMELLOW,"Slightly Cooked Marshmellow");
-        translationBuilder.add(ModItems.SLIGHTLYCOOKEDMARSHMELLOWSTICK,"Slightly Cooked Marshmellow on a Stick");
-        translationBuilder.add(ModItems.BURNTMARSHMELLOW,"Burnt Marshmellow");
-        translationBuilder.add(ModItems.BURNTMARSHMELLOWSTICK,"Burnt Marshmellow on a Stick");
+        translationBuilder.add(ModItems.MARSHMELLOW,"Marshmallow");
+        translationBuilder.add(ModItems.MARSHMELLOWSTICK,"Marshmallow on a Stick");
+        translationBuilder.add(ModItems.COOKEDMARSHMELLOW,"Cooked Marshmallow");
+        translationBuilder.add(ModItems.COOKEDMARSHMELLOWSTICK,"Cooked Marshmallow on a Stick");
+        translationBuilder.add(ModItems.SLIGHTLYCOOKEDMARSHMELLOW,"Slightly Cooked Marshmallow");
+        translationBuilder.add(ModItems.SLIGHTLYCOOKEDMARSHMELLOWSTICK,"Slightly Cooked Marshmallow on a Stick");
+        translationBuilder.add(ModItems.BURNTMARSHMELLOW,"Burnt Marshmallow");
+        translationBuilder.add(ModItems.BURNTMARSHMELLOWSTICK,"Burnt Marshmallow on a Stick");
         translationBuilder.add(ModItems.BOILEDEGG,"Boiled Egg");
         translationBuilder.add(ModItems.COPPERBERRY,"Copper Berry");
         translationBuilder.add(ModItems.DIAMONDBERRY,"Diamond Berry");
@@ -47,7 +48,7 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.FRIEDEGG,"Fried Egg");
         translationBuilder.add(ModItems.EGGONBREAD,"Egg on Bread");
         translationBuilder.add(ModItems.GARLICBREAD,"Garlic Bread");
-        translationBuilder.add(ModItems.GLOWBERRYSMOOTHIE,"Glow Berry Smoothie");
+        translationBuilder.add(ModItems.GLOWBERRYSMOOTHIE,"Glowberry Smoothie");
         translationBuilder.add(ModItems.CANDIEDSPIDEREYE,"Candied Spider Eye");
         translationBuilder.add(ModItems.CHILLI,"Chilli");
         translationBuilder.add(ModItems.CHILLISEEDS,"Chilli Seeds");
@@ -103,7 +104,7 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.MELONSCAKE,"Melon Cake");
         translationBuilder.add(ModItems.BLUEBERRYCAKE,"Blueberry Cake");
         translationBuilder.add(ModItems.STRAWBERRYCAKE,"Strawberry Cake");
-        translationBuilder.add(ModItems.GLOWBERRYCAKE,"Glow Berry Cake");
+        translationBuilder.add(ModItems.GLOWBERRYCAKE,"Glowberry Cake");
         translationBuilder.add(ModItems.RHUBARBCAKE,"Rhubarb Cake");
         translationBuilder.add(ModItems.CHOCOLATEPIE,"Chocolate Pie");
         translationBuilder.add(ModItems.CHEESE,"Cheese");
@@ -120,13 +121,13 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.MELONDONUT,"Melon Donut");
         translationBuilder.add(ModItems.STRAWDONUT,"Strawberry Donut");
         translationBuilder.add(ModItems.SWEETDONUT,"Sweet Berry Donut");
-        translationBuilder.add(ModItems.GLOWDONUT,"Glow Berry Donut");
+        translationBuilder.add(ModItems.GLOWDONUT,"Glowberry Donut");
         translationBuilder.add(ModItems.SALAD,"Salad");
         translationBuilder.add(ModItems.PUMPKINSOUP,"Pumpkin Soup");
         translationBuilder.add(ModItems.WINE,"Wine");
         translationBuilder.add(ModItems.SWEETWINE,"Sweet Wine");
         translationBuilder.add(ModItems.MELONWINE,"Melon Wine");
-        translationBuilder.add(ModItems.GLOWWINE,"Glow Berry Wine");
+        translationBuilder.add(ModItems.GLOWWINE,"Glowberry Wine");
         translationBuilder.add(ModItems.BEETWINE,"Beetroot Wine");
         translationBuilder.add(ModItems.PUMKINWINE,"Pumpkin Wine");
         translationBuilder.add(ModItems.ANCIENTWINE,"Ancient Fruit Wine");
@@ -134,7 +135,7 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.RHUBARBWINE,"Rhubarb Wine");
         translationBuilder.add(ModItems.NOODLES,"Noodles");
         translationBuilder.add(ModItems.PIZZA,"Pizza");
-        translationBuilder.add(ModItems.PIZZASLICE,"Pizza");
+        translationBuilder.add(ModItems.PIZZASLICE,"Pizza Slice");
         translationBuilder.add(ModItems.SPAGHETTI,"Spaghetti");
         translationBuilder.add(ModItems.DUMPLING,"Dumpling");
         translationBuilder.add(ModItems.DOUGH,"Dough");
@@ -148,7 +149,7 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.BURGER,"Burger");
         translationBuilder.add(ModItems.BEETCOOKIE,"Beetroot Cookie");
         translationBuilder.add(ModItems.CHORUSCOOKIE,"Chorus Cookie");
-        translationBuilder.add(ModItems.GLOWCOOKIE,"Glow Berry Cookie");
+        translationBuilder.add(ModItems.GLOWCOOKIE,"Glowberry Cookie");
         translationBuilder.add(ModItems.MELONCOOKIE,"Melon Cookie");
         translationBuilder.add(ModItems.SWEETCOOKIE,"Sweet Berry Cookie");
         translationBuilder.add(ModItems.BLUECOOKIE,"Blueberry Cookie");
@@ -169,7 +170,7 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.CHORUSJAM,"Chorus Jam");
         translationBuilder.add(ModItems.BEETJAM,"Beetroot Jam");
         translationBuilder.add(ModItems.SWEETJAM,"Sweet Berry Jam");
-        translationBuilder.add(ModItems.GLOWJAM,"Glow Berry Jam");
+        translationBuilder.add(ModItems.GLOWJAM,"Glowberry Jam");
         translationBuilder.add(ModItems.CARROTJAM,"Carrot Jam");
         translationBuilder.add(ModItems.TOASTWITHBACON,"Bacon Toast");
         translationBuilder.add(ModItems.TOASTWITHBUTTER, "Butter Toast");
@@ -178,7 +179,7 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.CARROTCAKESLICE, "Carrot Cake Slice");
         translationBuilder.add(ModItems.CAKESLICE, "Cake Slice");
         translationBuilder.add(ModItems.APPLECAKESLICE, "Apple Cake Slice");
-        translationBuilder.add(ModItems.GLOWBERRYCAKESLICE, "Glow Berry Cake Slice");
+        translationBuilder.add(ModItems.GLOWBERRYCAKESLICE, "Glowberry Cake Slice");
         translationBuilder.add(ModItems.SWEETBERRYCAKESLICE, "Sweet Berry Cake Slice");
         translationBuilder.add(ModItems.BEETROOTCAKESLICE, "Beetroot Cake Slice");
         translationBuilder.add(ModItems.RHUBARBCAKESLICE, "Rhubarb Cake Slice");
@@ -198,7 +199,7 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.BLUEMUFFIN, "Blueberry Muffin");
         translationBuilder.add(ModItems.STRAWMUFFIN, "Strawberry Muffin");
         translationBuilder.add(ModItems.MELONMUFFIN, "Melon Muffin");
-        translationBuilder.add(ModItems.GLOWMUFFIN, "Glow Berry Muffin");
+        translationBuilder.add(ModItems.GLOWMUFFIN, "Glowberry Muffin");
         translationBuilder.add(ModItems.CARROTMUFFIN, "Carrot Muffin");
         translationBuilder.add(ModItems.SWEETMUFFIN, "Sweet Berry Muffin");
         translationBuilder.add(ModItems.CHOCOMUFFIN, "Chocolate Muffin");
@@ -217,7 +218,7 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.CANDIED_BEET, "Candied Beetroot on a Stick");
         translationBuilder.add(ModItems.CANDIED_BLUEBER, "Candied Blueberries on a Stick");
         translationBuilder.add(ModItems.CANDIED_CARROT, "Candied Carrots on a Stick");
-        translationBuilder.add(ModItems.CANDIED_GLOWBER, "Candied Glow Berry on a Stick");
+        translationBuilder.add(ModItems.CANDIED_GLOWBER, "Candied Glowberry on a Stick");
         translationBuilder.add(ModItems.CANDIED_MELON, "Candied Melon on a Stick");
         translationBuilder.add(ModItems.CANDIED_PUMPKIN, "Candied Pumpkin on a Stick");
         translationBuilder.add(ModItems.CANDIED_STRAWBER, "Candied Strawberry on a Stick");
@@ -226,7 +227,7 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.ROCK_CANDY_BEET, "Beetroot Rock Candy");
         translationBuilder.add(ModItems.ROCK_CANDY_BLUEBER, "Blueberry Rock Candy");
         translationBuilder.add(ModItems.ROCK_CANDY_CARROT, "Carrot Rock Candy");
-        translationBuilder.add(ModItems.ROCK_CANDY_GLOWBER, "Glow Berry Rock Candy");
+        translationBuilder.add(ModItems.ROCK_CANDY_GLOWBER, "Glowberry Rock Candy");
         translationBuilder.add(ModItems.ROCK_CANDY_MELON, "Melon Rock Candy");
         translationBuilder.add(ModItems.ROCK_CANDY_PUMPKIN, "Pumpkin Rock Candy");
         translationBuilder.add(ModItems.ROCK_CANDY_STRAWBER, "Strawberry Rock Candy");
@@ -241,10 +242,11 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.STRAWBERRYCAKESLICE, "Strawberry Cake Slice");
         translationBuilder.add(ModItems.BLUEBERRYCAKESLICE, "Blueberry Cake Slice");
 
+
     }
 
     @Override
     public String getName() {
-        return "Adding Names to Yuns Cuisine";
+        return "Adding English to Yuns Cuisine";
     }
 }
