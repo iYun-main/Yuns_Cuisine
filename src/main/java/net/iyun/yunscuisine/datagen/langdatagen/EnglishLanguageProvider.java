@@ -141,7 +141,7 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.DOUGH,"Dough");
         translationBuilder.add(ModItems.SPRINGROLL,"Spring roll");
         translationBuilder.add(ModItems.STUFFEDMUSHROOM,"Stuffed Mushroom");
-        translationBuilder.add(ModItems.HOGLINSANDWICH,"Hoglin Sandwich");
+        translationBuilder.add(ModItems.HOGLINSANDWICH,"Pork Sandwich");
         translationBuilder.add(ModItems.NIGIRISUSHI,"Nigiri Sushi");
         translationBuilder.add(ModItems.VEGGIEMAKI,"Veggi Maki");
         translationBuilder.add(ModItems.HOTCHOCOLATE,"Hot Chocolate");
