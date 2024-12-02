@@ -2,7 +2,6 @@ package net.iyun.yunscuisine.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import net.iyun.yunscuisine.block.ModBlocks;
 import net.iyun.yunscuisine.item.ModItems;
 import net.iyun.yunscuisine.util.ModTags;
 import net.minecraft.block.Blocks;
@@ -11,7 +10,6 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;

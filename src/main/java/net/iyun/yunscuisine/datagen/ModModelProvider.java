@@ -5,8 +5,6 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.iyun.yunscuisine.block.ModBlocks;
 import net.iyun.yunscuisine.block.custom.*;
 import net.iyun.yunscuisine.item.ModItems;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.data.client.*;
 
 public class ModModelProvider extends FabricModelProvider {

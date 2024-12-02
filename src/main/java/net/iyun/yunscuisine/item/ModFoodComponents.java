@@ -4,7 +4,6 @@ package net.iyun.yunscuisine.item;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.item.Items;
 
 public class ModFoodComponents {
     public static final FoodComponent BUTTER = new FoodComponent.Builder().statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 300), 0.5f).nutrition(1).saturationModifier(0.5f).build();

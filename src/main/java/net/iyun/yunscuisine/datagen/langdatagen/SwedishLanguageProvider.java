@@ -5,8 +5,6 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.iyun.yunscuisine.item.ModItems;
 import net.minecraft.registry.RegistryWrapper;
 
-import java.io.IOException;
-import java.nio.file.Path;
 import java.util.concurrent.CompletableFuture;
 
 public class SwedishLanguageProvider extends FabricLanguageProvider {

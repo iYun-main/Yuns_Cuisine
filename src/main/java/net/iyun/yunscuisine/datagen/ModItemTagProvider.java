@@ -3,7 +3,6 @@ package net.iyun.yunscuisine.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.fabricmc.fabric.api.tag.convention.v2.ConventionalItemTags;
-import net.iyun.yunscuisine.block.ModBlocks;
 import net.iyun.yunscuisine.item.ModItems;
 import net.iyun.yunscuisine.util.ModTags;
 import net.minecraft.registry.RegistryWrapper;

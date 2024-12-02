@@ -2,7 +2,6 @@ package net.iyun.yunscuisine.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.iyun.yunscuisine.Yuns_Cuisine;
-import net.iyun.yunscuisine.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
