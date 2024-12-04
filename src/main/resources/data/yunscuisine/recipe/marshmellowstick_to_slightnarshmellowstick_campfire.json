@@ -4,7 +4,7 @@
   "cookingtime": 95,
   "experience": 0.35,
   "ingredient": {
-    "item": "goldyheart:marshmallow_stick"
+    "item": "yunscuisine:marshmallow_stick"
   },
-  "result": "goldyheart:slightly_cooked_marshmallow_stick"
+  "result": "yunscuisine:slightly_cooked_marshmallow_stick"
 }

@@ -4,7 +4,7 @@
   "cookingtime": 110,
   "experience": 0.25,
   "ingredient": {
-    "item": "goldyheart:raw_bacon"
+    "item": "yunscuisine:raw_bacon"
   },
-  "result": "goldyheart:cooked_bacon"
+  "result": "yunscuisine:cooked_bacon"
 }

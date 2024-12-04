@@ -4,7 +4,7 @@
   "cookingtime": 100,
   "experience": 0.35,
   "ingredient": {
-    "item": "goldyheart:raw_onion_ring"
+    "item": "yunscuisine:raw_onion_ring"
   },
-  "result": "goldyheart:fried_onion_ring"
+  "result": "yunscuisine:fried_onion_ring"
 }

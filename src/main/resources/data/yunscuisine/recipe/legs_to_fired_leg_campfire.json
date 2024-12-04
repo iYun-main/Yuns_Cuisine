@@ -4,7 +4,7 @@
   "cookingtime": 80,
   "experience": 0.35,
   "ingredient": {
-    "item": "goldyheart:chicken_legs"
+    "item": "yunscuisine:chicken_legs"
   },
-  "result": "goldyheart:fried_chicken"
+  "result": "yunscuisine:fried_chicken"
 }
