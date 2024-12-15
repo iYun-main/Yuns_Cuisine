@@ -55,7 +55,7 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.ANCIENTSEEDS,"Ancient Seeds");
         translationBuilder.add(ModItems.STRAWBERRY,"Strawberry");
         translationBuilder.add(ModItems.BLUEBERRY,"Blueberry");
-        translationBuilder.add(ModItems.WHISKEY,"Whisky");
+        translationBuilder.add(ModItems.WHISKEY,"Whiskey");
         translationBuilder.add(ModItems.CUTBREAD,"Cut Bread");
         translationBuilder.add(ModItems.RAWBACON,"Raw Bacon");
         translationBuilder.add(ModItems.COOKEDBACON,"Cooked Bacon");

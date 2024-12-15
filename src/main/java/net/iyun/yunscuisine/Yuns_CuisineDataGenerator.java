@@ -14,6 +14,7 @@ public class Yuns_CuisineDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(EnglishLanguageProvider::new);
 		pack.addProvider(SwedishLanguageProvider::new);
 		pack.addProvider(DutchLanguageProvider::new);
+		pack.addProvider(GermanLanguageProvider::new);
 		pack.addProvider(CzechiaLanguageProvider::new);
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
