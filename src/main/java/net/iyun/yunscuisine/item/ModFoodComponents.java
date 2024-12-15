@@ -83,7 +83,7 @@ public class ModFoodComponents {
     public static final FoodComponent LETTUCE = new FoodComponent.Builder().nutrition(4).saturationModifier(0.25f).build();
     public static final FoodComponent GLOBALWINES = new FoodComponent.Builder().nutrition(4).saturationModifier(0.2f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA,400,0),0.6f).build();
     public static final FoodComponent EGGONBREAD = new FoodComponent.Builder().nutrition(5).saturationModifier(0.25f).build();
-    public static final FoodComponent FRIEDEGG = new FoodComponent.Builder().nutrition(3).saturationModifier(0.25f).build();
+    public static final FoodComponent FRIEDEGG = new FoodComponent.Builder().nutrition(1).saturationModifier(0.25f).build();
     public static final FoodComponent LETTUCELEAF = new FoodComponent.Builder().nutrition(2).saturationModifier(0.2f).build();
     public static final FoodComponent STUFFEDBELLPEPPER = new FoodComponent.Builder().nutrition(6).saturationModifier(0.45f).build();
     public static final FoodComponent BUCKETOFPEPPER = new FoodComponent.Builder().nutrition(2).saturationModifier(1f).build();

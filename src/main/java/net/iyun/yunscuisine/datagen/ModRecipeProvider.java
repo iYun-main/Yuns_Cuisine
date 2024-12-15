@@ -150,6 +150,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.DOUGH), conditionsFromItem(ModItems.PANCAKES))
                 .offerTo(exporter, Identifier.of(getRecipeName(ModItems.PANCAKES)));
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD,ModItems.FRIEDEGG,1)
+                .input(Items.EGG)
+                .criterion(hasItem(Items.EGG), conditionsFromItem(ModItems.FRIEDEGG))
+                .offerTo(exporter,Identifier.of(getRecipeName(ModItems.FRIEDEGG)));
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.DUMPLING,3)
                 .input(Items.COOKED_BEEF,1)
                 .input(ModItems.DOUGH,1)

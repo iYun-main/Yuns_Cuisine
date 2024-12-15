@@ -44,7 +44,7 @@ public class CzechiaLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.BUTTER,"Máslo");
         translationBuilder.add(ModItems.MOLTENSUGAR,"Molten Sugar in a Bucket");
         translationBuilder.add(ModItems.TRUFFLE,"Lanýž");
-        translationBuilder.add(ModItems.FRIEDEGG,"Smažené Vajíčko");
+        translationBuilder.add(ModItems.FRIEDEGG,"Syrové Vejce");
         translationBuilder.add(ModItems.EGGONBREAD,"Vajíčka na Chlebu");
         translationBuilder.add(ModItems.GARLICBREAD,"Česnekový Chléb");
         translationBuilder.add(ModItems.GLOWBERRYSMOOTHIE,"Zářinkový Smoothie");
