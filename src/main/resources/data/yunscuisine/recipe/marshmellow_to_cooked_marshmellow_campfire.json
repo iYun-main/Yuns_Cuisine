@@ -6,5 +6,7 @@
   "ingredient": {
     "item": "yunscuisine:slightly_cooked_marshmallow"
   },
-  "result": "yunscuisine:cooked_marshmallow"
+  "result": {
+    "id": "yunscuisine:cooked_marshmallow"
+  }
 }

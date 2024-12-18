@@ -6,5 +6,7 @@
   "ingredient": {
     "item": "yunscuisine:raw_onion_ring"
   },
-  "result": "yunscuisine:fried_onion_ring"
+  "result": {
+    "id": "yunscuisine:fried_onion_ring"
+  }
 }

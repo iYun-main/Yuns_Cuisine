@@ -6,5 +6,7 @@
   "ingredient": {
     "item": "yunscuisine:chicken_legs"
   },
-  "result": "yunscuisine:fried_chicken"
+  "result": {
+    "id": "yunscuisine:fried_chicken"
+  }
 }

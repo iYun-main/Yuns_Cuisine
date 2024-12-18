@@ -6,5 +6,7 @@
   "ingredient": {
     "item": "yunscuisine:raw_bacon"
   },
-  "result": "yunscuisine:cooked_bacon"
+  "result": {
+    "id": "yunscuisine:cooked_bacon"
+  }
 }

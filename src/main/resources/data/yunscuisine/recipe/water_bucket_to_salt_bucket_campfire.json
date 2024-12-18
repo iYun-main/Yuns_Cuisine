@@ -6,5 +6,7 @@
   "ingredient": {
     "item": "minecraft:water_bucket"
   },
-  "result": "yunscuisine:bucket_of_salt"
+  "result": {
+    "id": "yunscuisine:bucket_of_salt"
+  }
 }

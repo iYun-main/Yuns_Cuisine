@@ -6,5 +6,7 @@
   "ingredient": {
     "item": "yunscuisine:toast"
   },
-  "result": "yunscuisine:toasted_toast"
+  "result": {
+    "id": "yunscuisine:toasted_toast"
+  }
 }

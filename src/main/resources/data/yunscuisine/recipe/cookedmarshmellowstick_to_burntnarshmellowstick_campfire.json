@@ -6,5 +6,7 @@
   "ingredient": {
     "item": "yunscuisine:cooked_marshmallow_stick"
   },
-  "result": "yunscuisine:burnt_marshmallow_stick"
+  "result": {
+    "id": "yunscuisine:burnt_marshmallow_stick"
+  }
 }

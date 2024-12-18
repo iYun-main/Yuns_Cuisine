@@ -41,7 +41,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(exporter, RAWCHICKENLEG, RecipeCategory.FOOD, ModItems.FRIEDCHICKEN, 1f, 120, "chickenleggy");
         offerSmelting(exporter, SNIIFERBOILING, RecipeCategory.FOOD, ModItems.BOILEDSNIFFEGG, 1f, 120, "sniifering");
 
-
 //Food Crafting
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.CANDIEDSPIDEREYE,2)
@@ -533,6 +532,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.HONEY_BOTTLE), conditionsFromItem(ModItems.TAFFY))
                 .criterion(hasItem(ModItems.BUTTER), conditionsFromItem(ModItems.TAFFY))
                 .offerTo(exporter, Identifier.of(getRecipeName(ModItems.TAFFY)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.MOLTENSUGAR,1)
+                .input(Items.SUGAR,4)
+                .input(Items.BUCKET,1)
+                .input(Items.MAGMA_CREAM,1)
+                .criterion(hasItem(Items.SUGAR), conditionsFromItem(ModItems.MOLTENSUGAR))
+                .criterion(hasItem(Items.BUCKET), conditionsFromItem(ModItems.MOLTENSUGAR))
+                .criterion(hasItem(Items.MAGMA_CREAM), conditionsFromItem(ModItems.MOLTENSUGAR))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.MOLTENSUGAR)));
 
 // this is just for me to simply repeating shit
         cakesslice(ModItems.BEETROOTCAKESLICE, ModItems.BEETROOTCAKE, exporter);
