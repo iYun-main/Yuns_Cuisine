@@ -44,7 +44,7 @@ public class SwedishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.BUTTER,"Smör");
         translationBuilder.add(ModItems.MOLTENSUGAR,"Smält Socker Hink");
         translationBuilder.add(ModItems.TRUFFLE,"Tryffel");
-        translationBuilder.add(ModItems.FRIEDEGG,"Rått ägg");
+        translationBuilder.add(ModItems.FRIEDEGG,"Stekt ägg");
         translationBuilder.add(ModItems.EGGONBREAD,"Bröd med Ägg");
         translationBuilder.add(ModItems.GARLICBREAD,"Vitlöksbröd");
         translationBuilder.add(ModItems.GLOWBERRYSMOOTHIE,"Glowberry Smoothie");

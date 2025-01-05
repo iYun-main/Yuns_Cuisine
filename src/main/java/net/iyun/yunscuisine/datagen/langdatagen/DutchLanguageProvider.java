@@ -44,7 +44,7 @@ public class DutchLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.BUTTER,"Boter");
         translationBuilder.add(ModItems.MOLTENSUGAR,"Emmer Gesmolten Suiker");
         translationBuilder.add(ModItems.TRUFFLE,"Truffel");
-        translationBuilder.add(ModItems.FRIEDEGG,"rauw ei");
+        translationBuilder.add(ModItems.FRIEDEGG,"Gebakken ei");
         translationBuilder.add(ModItems.EGGONBREAD,"Ei op Brood");
         translationBuilder.add(ModItems.GARLICBREAD,"Knoflookbrood");
         translationBuilder.add(ModItems.GLOWBERRYSMOOTHIE,"Gloeibes Smoothie");

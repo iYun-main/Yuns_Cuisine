@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 65,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "yunscuisine:raw_onion_ring"
+  },
+  "result": {
+    "id": "yunscuisine:fried_onion_ring"
+  }
+}
+

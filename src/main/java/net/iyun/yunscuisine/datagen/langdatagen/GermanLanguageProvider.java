@@ -44,7 +44,7 @@ public class GermanLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.BUTTER,"Butter");
         translationBuilder.add(ModItems.MOLTENSUGAR,"Geschmolzener Zucker im Eimer");
         translationBuilder.add(ModItems.TRUFFLE,"Trüffel");
-        translationBuilder.add(ModItems.FRIEDEGG,"Rohes Ei");
+        translationBuilder.add(ModItems.FRIEDEGG,"Spiegel Ei");
         translationBuilder.add(ModItems.EGGONBREAD,"Ei auf Brot");
         translationBuilder.add(ModItems.GARLICBREAD,"Knoblauchbrot");
         translationBuilder.add(ModItems.GLOWBERRYSMOOTHIE,"Glowberry-Smoothie");
