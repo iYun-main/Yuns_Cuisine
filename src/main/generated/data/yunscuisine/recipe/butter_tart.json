@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:molten_sugar"
+    },
+    {
+      "item": "yunscuisine:butter"
+    },
+    {
+      "item": "yunscuisine:butter"
+    },
+    {
+      "item": "yunscuisine:dough"
+    },
+    {
+      "item": "yunscuisine:dough"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "yunscuisine:butter_tart"
+  }
+}

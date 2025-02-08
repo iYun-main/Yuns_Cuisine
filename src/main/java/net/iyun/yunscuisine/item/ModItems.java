@@ -238,9 +238,19 @@ public class ModItems {
 
     public static final Item TAFFY = registerItem("taffy", new Item(new Item.Settings().food(ModFoodComponents.GLOBALCANDY)));
     public static final Item CANDY_CORN = registerItem("candy_corn", new Item(new Item.Settings().food(ModFoodComponents.GLOBALCANDY)));
-    
 
-    public static final Item SANDBREAD = registerItem("sand_bread", new Item(new  Item.Settings().food(ModFoodComponents.SANDBREAD)));
+    public static final Item BUTTER_TART = registerItem("butter_tart", new Item(new Item.Settings().food(ModFoodComponents.BUTTERTA)));
+    public static final Item CANDY_CANE = registerItem("candy_cane", new Item(new Item.Settings().food(ModFoodComponents.GLOBALCANDY)));
+    public static final Item CHAMP = registerItem("champagne", new GlobalSmoothieItem(new Item.Settings().food(ModFoodComponents.CHAMP)));
+    public static final Item CHRIS_PUD = registerItem("christmas_pudding", new Item(new Item.Settings().food(ModFoodComponents.CHRISPUD)));
+    public static final Item EGGNOG = registerItem("eggnog", new GlobalSmoothieItem(new Item.Settings().food(ModFoodComponents.EGGNOG)));
+    public static final Item GIN_BREAD = registerItem("gingerbread_man", new Item(new Item.Settings().food(ModFoodComponents.GINBREAD)));
+    public static final Item HONEY_PORL = registerItem("honeyed_pork", new Item(new Item.Settings().food(ModFoodComponents.HONEYPROK)));
+    public static final Item RICE_PUD = registerItem("rice_pudding", new GlobalBowlsItem(new Item.Settings().food(ModFoodComponents.RICE_PUD)));
+    public static final Item RICE_PUD_BIG = registerItem("rice_pudding_big", new GlobalBigBowlsItem(new Item.Settings().food(ModFoodComponents.RICE_PUD_BIG)));
+
+
+    public static final Item SANDBREAD = registerItem("sand_bread", new Item(new Item.Settings().food(ModFoodComponents.SANDBREAD)));
 
 
 

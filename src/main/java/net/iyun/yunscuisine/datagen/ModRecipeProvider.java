@@ -61,6 +61,101 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.BOWL), conditionsFromItem(ModItems.BIGBOWL))
                 .offerTo(exporter, Identifier.of(getRecipeName(ModItems.BIGBOWL)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RICE_PUD_BIG,2)
+                .pattern("TTT")
+                .pattern(" G ")
+                .input('T', ModItems.RICE_PUD)
+                .input('G', ModItems.BIGBOWL)
+                .criterion(hasItem(ModItems.BIGBOWL), conditionsFromItem(ModItems.RICE_PUD_BIG))
+                .criterion(hasItem(ModItems.RICE_PUD), conditionsFromItem(ModItems.RICE_PUD_BIG))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.RICE_PUD_BIG)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RICE_PUD,2)
+                .pattern("TVT")
+                .pattern(" G ")
+                .input('T', ModItems.RICE)
+                .input('V', ModItems.BUTTER)
+                .input('G', Items.BOWL)
+                .criterion(hasItem(Items.BOWL), conditionsFromItem(ModItems.RICE_PUD))
+                .criterion(hasItem(ModItems.BUTTER), conditionsFromItem(ModItems.RICE_PUD))
+                .criterion(hasItem(ModItems.RICE_PUD), conditionsFromItem(ModItems.RICE_PUD))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.RICE_PUD)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CANDY_CANE,4)
+                .pattern("AA ")
+                .pattern(" A ")
+                .pattern(" S ")
+                .input('S', ModItems.MOLTENSUGAR)
+                .input('A', Items.SUGAR)
+                .criterion(hasItem(ModItems.MOLTENSUGAR), conditionsFromItem(ModItems.CANDY_CANE))
+                .criterion(hasItem(Items.SUGAR), conditionsFromItem(ModItems.CANDY_CANE))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.CANDY_CANE)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.CHAMP,1)
+                .input(Items.EGG,2)
+                .input(Items.GLASS_BOTTLE,1)
+                .input(Items.SUGAR,2)
+                .criterion(hasItem(Items.EGG), conditionsFromItem(ModItems.CHAMP))
+                .criterion(hasItem(Items.GLASS_BOTTLE), conditionsFromItem(ModItems.CHAMP))
+                .criterion(hasItem(Items.SUGAR), conditionsFromItem(ModItems.CHAMP))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.CHAMP)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.HONEY_PORL,1)
+                .input(ModItems.PARSLEY,1)
+                .input(Items.PORKCHOP,1)
+                .input(Items.SUGAR,2)
+                .input(Items.HONEY_BOTTLE,2)
+                .criterion(hasItem(Items.PORKCHOP), conditionsFromItem(ModItems.HONEY_PORL))
+                .criterion(hasItem(Items.SUGAR), conditionsFromItem(ModItems.HONEY_PORL))
+                .criterion(hasItem(Items.HONEY_BOTTLE), conditionsFromItem(ModItems.HONEY_PORL))
+                .criterion(hasItem(ModItems.PARSLEY), conditionsFromItem(ModItems.HONEY_PORL))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.HONEY_PORL)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.CHRIS_PUD,1)
+                .input(ModItems.PARSLEY,1)
+                .input(ModItems.DOUGH,1)
+                .input(ModItems.MOLTENSUGAR,1)
+                .input(Items.SUGAR,1)
+                .input(Items.HONEY_BOTTLE,1)
+                .criterion(hasItem(Items.SUGAR), conditionsFromItem(ModItems.CHRIS_PUD))
+                .criterion(hasItem(Items.HONEY_BOTTLE), conditionsFromItem(ModItems.CHRIS_PUD))
+                .criterion(hasItem(ModItems.PARSLEY), conditionsFromItem(ModItems.CHRIS_PUD))
+                .criterion(hasItem(ModItems.MOLTENSUGAR), conditionsFromItem(ModItems.CHRIS_PUD))
+                .criterion(hasItem(ModItems.DOUGH), conditionsFromItem(ModItems.CHRIS_PUD))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.CHRIS_PUD)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.GIN_BREAD,1)
+                .input(ModItems.DOUGH,1)
+                .input(ModItems.MOLTENSUGAR,1)
+                .input(Items.SUGAR,1)
+                .input(Items.BREAD,1)
+                .input(Items.HONEY_BOTTLE,1)
+                .criterion(hasItem(Items.SUGAR), conditionsFromItem(ModItems.GIN_BREAD))
+                .criterion(hasItem(Items.BREAD), conditionsFromItem(ModItems.GIN_BREAD))
+                .criterion(hasItem(Items.HONEY_BOTTLE), conditionsFromItem(ModItems.GIN_BREAD))
+                .criterion(hasItem(ModItems.MOLTENSUGAR), conditionsFromItem(ModItems.GIN_BREAD))
+                .criterion(hasItem(ModItems.DOUGH), conditionsFromItem(ModItems.GIN_BREAD))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.GIN_BREAD)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.BUTTER_TART,2)
+                .input(ModItems.MOLTENSUGAR,1)
+                .input(ModItems.BUTTER,2)
+                .input(ModItems.DOUGH,2)
+                .criterion(hasItem(ModItems.MOLTENSUGAR), conditionsFromItem(ModItems.BUTTER_TART))
+                .criterion(hasItem(ModItems.BUTTER), conditionsFromItem(ModItems.BUTTER_TART))
+                .criterion(hasItem(ModItems.DOUGH), conditionsFromItem(ModItems.BUTTER_TART))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.BUTTER_TART)));
+
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.EGGNOG,1)
+                .input(Items.EGG,2)
+                .input(Items.GLASS_BOTTLE,1)
+                .input(ModItems.CHAMP,1)
+                .criterion(hasItem(Items.EGG), conditionsFromItem(ModItems.EGGNOG))
+                .criterion(hasItem(Items.GLASS_BOTTLE), conditionsFromItem(ModItems.EGGNOG))
+                .criterion(hasItem(ModItems.CHAMP), conditionsFromItem(ModItems.EGGNOG))
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.EGGNOG)));
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.EGGONBREAD,1)
                 .input(ModItems.FRIEDEGG,1)
                 .input(Items.BREAD,1)

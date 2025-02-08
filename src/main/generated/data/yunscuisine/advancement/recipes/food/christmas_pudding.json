@@ -1,0 +1,76 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:christmas_pudding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_honey_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:christmas_pudding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_molten_sugar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:christmas_pudding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_parsley": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:christmas_pudding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sugar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:christmas_pudding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:christmas_pudding"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sugar",
+      "has_honey_bottle",
+      "has_parsley",
+      "has_molten_sugar",
+      "has_dough"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:christmas_pudding"
+    ]
+  }
+}

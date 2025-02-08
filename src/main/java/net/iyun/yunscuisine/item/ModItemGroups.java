@@ -226,6 +226,15 @@ public class ModItemGroups {
                     entries.add(ModItems.ROCK_CANDY_SWEETBER);
                     entries.add(ModItems.TAFFY);
                     entries.add(ModItems.CANDY_CORN);
+                    entries.add(ModItems.BUTTER_TART);
+                    entries.add(ModItems.CANDY_CANE);
+                    entries.add(ModItems.CHAMP);
+                    entries.add(ModItems.CHRIS_PUD);
+                    entries.add(ModItems.EGGNOG);
+                    entries.add(ModItems.GIN_BREAD);
+                    entries.add(ModItems.HONEY_PORL);
+                    entries.add(ModItems.RICE_PUD);
+                    entries.add(ModItems.RICE_PUD_BIG);
                     }).build());
 
 

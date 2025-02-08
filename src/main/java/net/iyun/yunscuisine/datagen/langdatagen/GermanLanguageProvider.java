@@ -175,6 +175,15 @@ public class GermanLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.CANDY_CORN,"Candy Corn");
         translationBuilder.add(ModItems.SANDBREAD,"Sandbrot");
 
+        translationBuilder.add(ModItems.BUTTER_TART,"Buttertarte");
+        translationBuilder.add(ModItems.CANDY_CANE, "Zuckerstange");
+        translationBuilder.add(ModItems.CHAMP, "Sekt");
+        translationBuilder.add(ModItems.CHRIS_PUD, "Weihnachtspudding");
+        translationBuilder.add(ModItems.EGGNOG, "Eierlikör");
+        translationBuilder.add(ModItems.GIN_BREAD, "Lebkuchenmann");
+        translationBuilder.add(ModItems.RICE_PUD, "Milchreis");
+        translationBuilder.add(ModItems.RICE_PUD_BIG, "Schweinefleisch mit Honig");
+
     }
 
     @Override

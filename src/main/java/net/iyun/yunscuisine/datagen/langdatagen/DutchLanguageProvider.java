@@ -241,6 +241,16 @@ public class DutchLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.STRAWBERRYCAKESLICE, "Aardbeientaartpunt");
         translationBuilder.add(ModItems.BLUEBERRYCAKESLICE, "Bosbessentaartpunt");
 
+        translationBuilder.add(ModItems.BUTTER_TART, "Botertaart");
+        translationBuilder.add(ModItems.CANDY_CANE, "Snoepgoed");
+        translationBuilder.add(ModItems.CHAMP, "Champagne");
+        translationBuilder.add(ModItems.CHRIS_PUD, "Kerstpudding");
+        translationBuilder.add(ModItems.EGGNOG, "Advocaat");
+        translationBuilder.add(ModItems.GIN_BREAD, "Peperkoek mannetje");
+        translationBuilder.add(ModItems.RICE_PUD, "Rijstpudding");
+        translationBuilder.add(ModItems.RICE_PUD_BIG, "Grote rijstpudding");
+        translationBuilder.add(ModItems.HONEY_PORL, "Honing varkensvlees");
+
     }
 
     @Override

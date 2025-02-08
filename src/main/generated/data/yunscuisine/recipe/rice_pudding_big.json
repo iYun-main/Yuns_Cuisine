@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "yunscuisine:big_wooden_bowl"
+    },
+    "T": {
+      "item": "yunscuisine:rice_pudding"
+    }
+  },
+  "pattern": [
+    "TTT",
+    " G "
+  ],
+  "result": {
+    "count": 2,
+    "id": "yunscuisine:rice_pudding_big"
+  }
+}

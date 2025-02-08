@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:rice_pudding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_butter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:rice_pudding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rice_pudding": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:rice_pudding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:rice_pudding"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bowl",
+      "has_butter",
+      "has_rice_pudding"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:rice_pudding"
+    ]
+  }
+}

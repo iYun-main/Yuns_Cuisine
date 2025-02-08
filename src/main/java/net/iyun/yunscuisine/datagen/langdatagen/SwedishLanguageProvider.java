@@ -241,6 +241,15 @@ public class SwedishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.STRAWBERRYCAKESLICE, "Jordgubbskakeskiva");
         translationBuilder.add(ModItems.BLUEBERRYCAKESLICE, "Blåbärskakeskiva");
 
+        translationBuilder.add(ModItems.BUTTER_TART, "Smör Bakelse");
+        translationBuilder.add(ModItems.CANDY_CANE, "Godisrör");
+        translationBuilder.add(ModItems.CHAMP, "Champagne");
+        translationBuilder.add(ModItems.CHRIS_PUD, "CJulpudding");
+        translationBuilder.add(ModItems.EGGNOG, "Äggnog");
+        translationBuilder.add(ModItems.GIN_BREAD, "Pepparkaksgubbe");
+        translationBuilder.add(ModItems.RICE_PUD, "Rispudding");
+        translationBuilder.add(ModItems.RICE_PUD_BIG, "Stor Rispudding");
+        translationBuilder.add(ModItems.HONEY_PORL, "Honungsfläsk");
 
     }
 

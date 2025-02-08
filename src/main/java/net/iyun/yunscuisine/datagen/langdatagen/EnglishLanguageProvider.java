@@ -241,6 +241,16 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.STRAWBERRYCAKESLICE, "Strawberry Cake Slice");
         translationBuilder.add(ModItems.BLUEBERRYCAKESLICE, "Blueberry Cake Slice");
 
+        translationBuilder.add(ModItems.BUTTER_TART, "Butter Tart");
+        translationBuilder.add(ModItems.CANDY_CANE, "Candy Cane");
+        translationBuilder.add(ModItems.CHAMP, "Champagne");
+        translationBuilder.add(ModItems.CHRIS_PUD, "Christmas Pudding");
+        translationBuilder.add(ModItems.EGGNOG, "Eggnog");
+        translationBuilder.add(ModItems.GIN_BREAD, "Gingerbread Man");
+        translationBuilder.add(ModItems.RICE_PUD, "Rice Pudding");
+        translationBuilder.add(ModItems.RICE_PUD_BIG, "Big Rice Pudding");
+        translationBuilder.add(ModItems.HONEY_PORL, "Honeyed Pork");
+
 
     }
 

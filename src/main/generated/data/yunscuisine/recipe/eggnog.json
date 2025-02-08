@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "yunscuisine:champagne"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:eggnog"
+  }
+}

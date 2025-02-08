@@ -111,4 +111,12 @@ public class ModFoodComponents {
     public static final FoodComponent GLOBALSTICKCANDY = new FoodComponent.Builder().nutrition(5).saturationModifier(0.15f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED,300,1),0.1f).build();
     public static final FoodComponent GLOBALROCKCANDY = new FoodComponent.Builder().nutrition(6).saturationModifier(0.2f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED,300,1),0.15f).build();
     public static final FoodComponent GLOBALCANDY = new FoodComponent.Builder().nutrition(3).saturationModifier(0.2f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED,300,1),0.15f).build();
+    public static final FoodComponent BUTTERTA = new FoodComponent.Builder().nutrition(4).saturationModifier(0.25f).build();
+    public static final FoodComponent CHAMP = new FoodComponent.Builder().nutrition(4).saturationModifier(0.25f).build();
+    public static final FoodComponent CHRISPUD = new FoodComponent.Builder().nutrition(4).saturationModifier(0.25f).build();
+    public static final FoodComponent EGGNOG = new FoodComponent.Builder().nutrition(4).saturationModifier(0.25f).build();
+    public static final FoodComponent GINBREAD = new FoodComponent.Builder().nutrition(4).saturationModifier(0.25f).build();
+    public static final FoodComponent HONEYPROK = new FoodComponent.Builder().nutrition(4).saturationModifier(0.25f).build();
+    public static final FoodComponent RICE_PUD = new FoodComponent.Builder().nutrition(3).saturationModifier(0.25f).build();
+    public static final FoodComponent RICE_PUD_BIG = new FoodComponent.Builder().nutrition(6).saturationModifier(0.25f).build();
 }

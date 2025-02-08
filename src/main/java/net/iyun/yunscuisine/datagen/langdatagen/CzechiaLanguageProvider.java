@@ -241,6 +241,15 @@ public class CzechiaLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.STRAWBERRYCAKESLICE, "Kousek Jahodového Dortu");
         translationBuilder.add(ModItems.BLUEBERRYCAKESLICE, "Kousek Borůvkového Dortu");
 
+        translationBuilder.add(ModItems.BUTTER_TART, "Máslový koláč");
+        translationBuilder.add(ModItems.CANDY_CANE, "Candy Cane");
+        translationBuilder.add(ModItems.CHAMP, "Šampaňské");
+        translationBuilder.add(ModItems.CHRIS_PUD, "Vánoční pudink");
+        translationBuilder.add(ModItems.EGGNOG, "Vaječný koňak");
+        translationBuilder.add(ModItems.GIN_BREAD, "Perníkový panáček");
+        translationBuilder.add(ModItems.RICE_PUD, "Rýžový nákyp");
+        translationBuilder.add(ModItems.RICE_PUD_BIG, "Velký rýžový nákyp");
+        translationBuilder.add(ModItems.HONEY_PORL, "Medové vepřové");
 
 
     }

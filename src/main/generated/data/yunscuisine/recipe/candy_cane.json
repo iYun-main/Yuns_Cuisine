@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:sugar"
+    },
+    "S": {
+      "item": "yunscuisine:molten_sugar"
+    }
+  },
+  "pattern": [
+    "AA ",
+    " A ",
+    " S "
+  ],
+  "result": {
+    "count": 4,
+    "id": "yunscuisine:candy_cane"
+  }
+}
