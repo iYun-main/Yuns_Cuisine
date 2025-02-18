@@ -61,7 +61,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.BOWL), conditionsFromItem(ModItems.BIGBOWL))
                 .offerTo(exporter, Identifier.of(getRecipeName(ModItems.BIGBOWL)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RICE_PUD_BIG,2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RICE_PUD_BIG)
                 .pattern("TTT")
                 .pattern(" G ")
                 .input('T', ModItems.RICE_PUD)
@@ -70,7 +70,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RICE_PUD), conditionsFromItem(ModItems.RICE_PUD_BIG))
                 .offerTo(exporter, Identifier.of(getRecipeName(ModItems.RICE_PUD_BIG)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RICE_PUD,2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RICE_PUD)
                 .pattern("TVT")
                 .pattern(" G ")
                 .input('T', ModItems.RICE)
