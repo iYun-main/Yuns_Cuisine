@@ -119,4 +119,29 @@ public class ModFoodComponents {
     public static final FoodComponent HONEYPROK = new FoodComponent.Builder().nutrition(4).saturationModifier(0.25f).build();
     public static final FoodComponent RICE_PUD = new FoodComponent.Builder().nutrition(3).saturationModifier(0.25f).build();
     public static final FoodComponent RICE_PUD_BIG = new FoodComponent.Builder().nutrition(6).saturationModifier(0.25f).build();
+
+    public static final FoodComponent TUNA = new FoodComponent.Builder().nutrition(2).saturationModifier(0.25f).build();
+    public static final FoodComponent GLOBALCFISH = new FoodComponent.Builder().nutrition(5).saturationModifier(0.15f).build();
+    public static final FoodComponent OYSTER = new FoodComponent.Builder().nutrition(2).saturationModifier(0.25f).build();
+    public static final FoodComponent GLOBALTRASHFOOD = new FoodComponent.Builder().nutrition(1).saturationModifier(0.25f).build();
+    public static final FoodComponent SASHIMI = new FoodComponent.Builder().nutrition(5).saturationModifier(0.25f).build();
+    public static final FoodComponent SHRIMP = new FoodComponent.Builder().nutrition(1).saturationModifier(0.25f).build();
+    public static final FoodComponent SQUID = new FoodComponent.Builder().nutrition(2).saturationModifier(0.25f).build();
+    public static final FoodComponent SHRICE = new FoodComponent.Builder().nutrition(5).saturationModifier(0.25f).build();
+    public static final FoodComponent SHTAIL = new FoodComponent.Builder().nutrition(4).saturationModifier(0.25f).build();
+    public static final FoodComponent KINGCRAB = new FoodComponent.Builder().nutrition(2).saturationModifier(0.25f).build();
+    public static final FoodComponent KINGCRABCAKE = new FoodComponent.Builder().nutrition(6).saturationModifier(0.25f).build();
+    public static final FoodComponent RAWFISH = new FoodComponent.Builder().nutrition(2).saturationModifier(0.25f).build();
+    public static final FoodComponent SQRAVI = new FoodComponent.Builder().nutrition(7).saturationModifier(0.25f).build();
+    public static final FoodComponent JELLYPUD = new FoodComponent.Builder().nutrition(5).saturationModifier(0.5f).build();
+    public static final FoodComponent MAKIROLL = new FoodComponent.Builder().nutrition(4).saturationModifier(0.5f).build();
+    public static final FoodComponent OYSTETSTEW = new FoodComponent.Builder().nutrition(6).saturationModifier(0.25f).build();
+    public static final FoodComponent LOBSTERIS = new FoodComponent.Builder().nutrition(7).saturationModifier(0.25f).build();
+    public static final FoodComponent FISHSTEW = new FoodComponent.Builder().nutrition(5).saturationModifier(0.25f).build();
+    public static final FoodComponent COOKEDTUNA = new FoodComponent.Builder().nutrition(6).saturationModifier(0.25f).build();
+    public static final FoodComponent FRIEDCAL = new FoodComponent.Builder().nutrition(4).saturationModifier(0.25f).build();
+    public static final FoodComponent CHOW = new FoodComponent.Builder().nutrition(6).saturationModifier(0.25f).build();
+
+
+
 }

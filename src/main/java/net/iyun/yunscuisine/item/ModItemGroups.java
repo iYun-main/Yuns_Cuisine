@@ -235,6 +235,39 @@ public class ModItemGroups {
                     entries.add(ModItems.HONEY_PORL);
                     entries.add(ModItems.RICE_PUD);
                     entries.add(ModItems.RICE_PUD_BIG);
+
+                    entries.add(ModItems.TUNA);
+                    entries.add(ModItems.COOKED_TUNA);
+                    entries.add(ModItems.OYSTER);
+                    entries.add(ModItems.DRIFTWOOD);
+                    entries.add(ModItems.CLAM);
+                    entries.add(ModItems.HERRING);
+                    entries.add(ModItems.LOBSTER);
+                    entries.add(ModItems.SEAJELLY);
+                    entries.add(ModItems.SHRIMP);
+                    entries.add(ModItems.SQUID);
+                    entries.add(ModItems.SHRIMPRICE);
+                    entries.add(ModItems.SHRIMPCTAIL);
+                    entries.add(ModItems.KINGCRAB);
+                    entries.add(ModItems.KINGCRABCAKES);
+                    entries.add(ModItems.RAWFISH);
+                    entries.add(ModItems.REDSNAP);
+                    entries.add(ModItems.SASHIMI);
+                    entries.add(ModItems.TINCAN);
+                    entries.add(ModItems.SQUIDINKRAV);
+                    entries.add(ModItems.WETPAPER);
+                    entries.add(ModItems.SEAJELLPUD);
+                    entries.add(ModItems.MAKIROLL);
+                    entries.add(ModItems.WHITEALGAE);
+                    entries.add(ModItems.OYSTERSTEW);
+                    entries.add(ModItems.LOBSTERRISOTTO);
+                    entries.add(ModItems.FISHSTEW);
+                    entries.add(ModItems.COOKEDHERRING);
+                    entries.add(ModItems.COOKEDREDSNAP);
+                    entries.add(ModItems.FRIEDCAL);
+                    entries.add(ModItems.CLAMCHOW);
+                    entries.add(ModItems.GREENALGAE);
+
                     }).build());
 
 

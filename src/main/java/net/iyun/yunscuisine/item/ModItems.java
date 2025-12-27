@@ -252,7 +252,37 @@ public class ModItems {
 
     public static final Item SANDBREAD = registerItem("sand_bread", new Item(new Item.Settings().food(ModFoodComponents.SANDBREAD)));
 
-
+    public static final Item TUNA = registerItem("tuna", new Item(new Item.Settings().food(ModFoodComponents.TUNA)));
+    public static final Item COOKED_TUNA = registerItem("cooked_tuna", new Item(new Item.Settings().food(ModFoodComponents.COOKEDTUNA)));
+    public static final Item OYSTER = registerItem("oyster", new Item(new Item.Settings().food(ModFoodComponents.OYSTER)));
+    public static final Item DRIFTWOOD = registerItem("driftwood", new Item(new Item.Settings()));
+    public static final Item CLAM = registerItem("clam", new Item(new Item.Settings()));
+    public static final Item HERRING = registerItem("herring", new Item(new Item.Settings().food(ModFoodComponents.GLOBALCFISH)));
+    public static final Item LOBSTER = registerItem("lobster", new Item(new Item.Settings().food(ModFoodComponents.GLOBALCFISH)));
+    public static final Item SEAJELLY = registerItem("sea_jelly", new Item(new Item.Settings().food(ModFoodComponents.GLOBALTRASHFOOD)));
+    public static final Item SHRIMP = registerItem("shrimp", new Item(new Item.Settings().food(ModFoodComponents.SHRIMP)));
+    public static final Item SQUID = registerItem("squid", new Item(new Item.Settings().food(ModFoodComponents.SQUID)));
+    public static final Item SHRIMPRICE = registerItem("shrimp_fried_rice", new GlobalBowlsItem(new Item.Settings().food(ModFoodComponents.SHRICE)));
+    public static final Item SHRIMPCTAIL = registerItem("shrimp_cocktail", new GlobalSmoothieItem(new Item.Settings().food(ModFoodComponents.SHTAIL)));
+    public static final Item KINGCRAB = registerItem("king_crab", new Item(new Item.Settings().food(ModFoodComponents.KINGCRAB)));
+    public static final Item KINGCRABCAKES = registerItem("king_crab_cakes", new Item(new Item.Settings().food(ModFoodComponents.KINGCRABCAKE)));
+    public static final Item RAWFISH = registerItem("raw_fish_fillet", new Item(new Item.Settings().food(ModFoodComponents.RAWFISH)));
+    public static final Item REDSNAP = registerItem("red_snapper", new Item(new Item.Settings().food(ModFoodComponents.GLOBALCFISH)));
+    public static final Item SASHIMI = registerItem("sashimi", new Item(new Item.Settings().food(ModFoodComponents.SASHIMI)));
+    public static final Item TINCAN = registerItem("tin_can", new Item(new Item.Settings()));
+    public static final Item SQUIDINKRAV = registerItem("squid_ink_ravioli", new GlobalBowlsItem(new Item.Settings().food(ModFoodComponents.SQRAVI)));
+    public static final Item WETPAPER = registerItem("wet_paper", new Item(new Item.Settings()));
+    public static final Item SEAJELLPUD = registerItem("sea_jelly_pudding", new GlobalBowlsItem(new Item.Settings().food(ModFoodComponents.JELLYPUD)));
+    public static final Item MAKIROLL = registerItem("maki_roll", new Item(new Item.Settings().food(ModFoodComponents.MAKIROLL)));
+    public static final Item WHITEALGAE = registerItem("white_sea_algae", new Item(new Item.Settings().food(ModFoodComponents.GLOBALTRASHFOOD)));
+    public static final Item OYSTERSTEW = registerItem("oyster_stew", new GlobalBowlsItem(new Item.Settings().food(ModFoodComponents.OYSTETSTEW)));
+    public static final Item LOBSTERRISOTTO = registerItem("lobster_risotto", new GlobalBowlsItem(new Item.Settings().food(ModFoodComponents.LOBSTERIS)));
+    public static final Item FISHSTEW = registerItem("fish_stew", new GlobalBowlsItem(new Item.Settings().food(ModFoodComponents.FISHSTEW)));
+    public static final Item COOKEDHERRING = registerItem("cooked_herring", new Item(new Item.Settings().food(ModFoodComponents.COOKEDTUNA)));
+    public static final Item COOKEDREDSNAP = registerItem("cooked_red_snapper", new Item(new Item.Settings().food(ModFoodComponents.COOKEDTUNA)));
+    public static final Item FRIEDCAL = registerItem("fried_calamari", new Item(new Item.Settings().food(ModFoodComponents.FRIEDCAL)));
+    public static final Item CLAMCHOW = registerItem("clam_chowder", new GlobalBowlsItem(new Item.Settings().food(ModFoodComponents.CHOW)));
+    public static final Item GREENALGAE = registerItem("green_sea_algae", new Item(new Item.Settings().food(ModFoodComponents.GLOBALTRASHFOOD)));
 
 
     private static Item registerItem(String name, Item item){

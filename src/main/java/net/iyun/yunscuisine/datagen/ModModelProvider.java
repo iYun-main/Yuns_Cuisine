@@ -312,5 +312,38 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RICE_PUD_BIG, Models.GENERATED);
         itemModelGenerator.register(ModItems.HONEY_PORL, Models.GENERATED);
 
+
+        itemModelGenerator.register(ModItems.TUNA, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_TUNA, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OYSTER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DRIFTWOOD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CLAM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HERRING, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LOBSTER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SHRIMP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SQUID, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SHRIMPRICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SHRIMPCTAIL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SEAJELLY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KINGCRAB, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KINGCRABCAKES, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAWFISH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.REDSNAP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SASHIMI, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TINCAN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SQUIDINKRAV, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WETPAPER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SEAJELLPUD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAKIROLL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WHITEALGAE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OYSTERSTEW, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LOBSTERRISOTTO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FISHSTEW, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKEDHERRING, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKEDREDSNAP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FRIEDCAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CLAMCHOW, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GREENALGAE, Models.GENERATED);
+
     }
 }

@@ -7,6 +7,7 @@ import net.iyun.yunscuisine.block.ModBlocks;
 import net.iyun.yunscuisine.item.ModItemGroups;
 import net.iyun.yunscuisine.item.ModItems;
 import net.iyun.yunscuisine.util.ModCustomTrades;
+import net.iyun.yunscuisine.util.YunLoottable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,6 +19,7 @@ public class Yuns_Cuisine implements ModInitializer {
 	public void onInitialize() {
 
 		ModItemGroups.registerItemGroups();
+        YunLoottable.thefuckingloot();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModCustomTrades.registerCustomTrades();
