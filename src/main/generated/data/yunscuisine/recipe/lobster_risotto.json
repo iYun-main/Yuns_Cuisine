@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:bowl"
+    },
+    "L": {
+      "item": "yunscuisine:rice"
+    },
+    "O": {
+      "item": "yunscuisine:king_crab"
+    },
+    "T": {
+      "item": "yunscuisine:lobster"
+    },
+    "U": {
+      "item": "yunscuisine:green_sea_algae"
+    },
+    "V": {
+      "item": "yunscuisine:white_sea_algae"
+    }
+  },
+  "pattern": [
+    "TVU",
+    "O L",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:lobster_risotto"
+  }
+}

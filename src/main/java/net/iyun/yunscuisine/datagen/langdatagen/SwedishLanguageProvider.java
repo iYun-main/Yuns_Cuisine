@@ -251,6 +251,38 @@ public class SwedishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.RICE_PUD_BIG, "Stor Rispudding");
         translationBuilder.add(ModItems.HONEY_PORL, "Honungsfläsk");
 
+        translationBuilder.add(ModItems.TUNA, "Tonfisk");
+        translationBuilder.add(ModItems.COOKED_TUNA, "Tillagad Tonfisk");
+        translationBuilder.add(ModItems.OYSTER, "Ostron");
+        translationBuilder.add(ModItems.CLAM, "Bläckfisk");
+        translationBuilder.add(ModItems.HERRING, "Sill");
+        translationBuilder.add(ModItems.LOBSTER, "Hummer");
+        translationBuilder.add(ModItems.SEAJELLY, "Manet");
+        translationBuilder.add(ModItems.SHRIMP, "Räka");
+        translationBuilder.add(ModItems.SQUID, "Bläckfisk");
+        translationBuilder.add(ModItems.SHRIMPRICE, "Räkris");
+        translationBuilder.add(ModItems.SHRIMPCTAIL, "Räkor med cocktail");
+        translationBuilder.add(ModItems.KINGCRAB, "Kungskrabba");
+        translationBuilder.add(ModItems.KINGCRABCAKES, "Kungskrabbekakor");
+        translationBuilder.add(ModItems.RAWFISH, "Rå Fisk");
+        translationBuilder.add(ModItems.REDSNAP, "Röd Snapper");
+        translationBuilder.add(ModItems.SASHIMI, "Sashimi");
+        translationBuilder.add(ModItems.TINCAN, "Konservburk");
+        translationBuilder.add(ModItems.SQUIDINKRAV, "Bläckfiskravioli");
+        translationBuilder.add(ModItems.WETPAPER, "Blötpapper");
+        translationBuilder.add(ModItems.SEAJELLPUD, "Manetpudding");
+        translationBuilder.add(ModItems.MAKIROLL, "Makiroll");
+        translationBuilder.add(ModItems.WHITEALGAE, "Vit Algen");
+        translationBuilder.add(ModItems.OYSTERSTEW, "Ostronsoppa");
+        translationBuilder.add(ModItems.LOBSTERRISOTTO, "Hummersrisotto");
+        translationBuilder.add(ModItems.FISHSTEW, "Fiskgryta");
+        translationBuilder.add(ModItems.COOKEDHERRING, "Tillagad Sill");
+        translationBuilder.add(ModItems.COOKEDREDSNAP, "Tillagad Röd Snapper");
+        translationBuilder.add(ModItems.FRIEDCAL, "Friterad Calamari");
+        translationBuilder.add(ModItems.CLAMCHOW, "Klawchowder");
+        translationBuilder.add(ModItems.GREENALGAE, "Grön Algen");
+
+
     }
 
     @Override

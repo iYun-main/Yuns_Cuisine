@@ -19,6 +19,7 @@ public class ModTags {
     public static class Items {
 
         public static final TagKey<Item> JAM = createTag("jams");
+        public static final TagKey<Item> FISHY = createTag("fishy");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(Yuns_Cuisine.MOD_ID, name));

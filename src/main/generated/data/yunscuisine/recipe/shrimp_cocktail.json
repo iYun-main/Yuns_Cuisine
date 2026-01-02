@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:shrimp"
+    },
+    {
+      "item": "yunscuisine:whiskey"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:shrimp_cocktail"
+  }
+}

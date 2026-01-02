@@ -184,6 +184,37 @@ public class GermanLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.RICE_PUD, "Milchreis");
         translationBuilder.add(ModItems.RICE_PUD_BIG, "Schweinefleisch mit Honig");
 
+        translationBuilder.add(ModItems.TUNA, "Thunfisch");
+        translationBuilder.add(ModItems.COOKED_TUNA, "Gekochter Thunfisch");
+        translationBuilder.add(ModItems.OYSTER, "Auster");
+        translationBuilder.add(ModItems.CLAM, "Muschel");
+        translationBuilder.add(ModItems.HERRING, "Hering");
+        translationBuilder.add(ModItems.LOBSTER, "Hummer");
+        translationBuilder.add(ModItems.SEAJELLY, "Seegel");
+        translationBuilder.add(ModItems.SHRIMP, "Garnele");
+        translationBuilder.add(ModItems.SQUID, "Tintenfish");
+        translationBuilder.add(ModItems.SHRIMPRICE, "Garnelenreis");
+        translationBuilder.add(ModItems.SHRIMPCTAIL, "Krabbencocktail");
+        translationBuilder.add(ModItems.KINGCRAB, "Königskrabbe");
+        translationBuilder.add(ModItems.KINGCRABCAKES, "Königskrabbenfrikadellen");
+        translationBuilder.add(ModItems.RAWFISH, "Roher Fisch");
+        translationBuilder.add(ModItems.REDSNAP, "Roter Schnapper");
+        translationBuilder.add(ModItems.SASHIMI, "Sashimi");
+        translationBuilder.add(ModItems.TINCAN, "Tin Dose");
+        translationBuilder.add(ModItems.SQUIDINKRAV, "Tintenfisch-Ravioli");
+        translationBuilder.add(ModItems.WETPAPER, "Nasses Papier");
+        translationBuilder.add(ModItems.SEAJELLPUD, "Meeresgelee-Pudding");
+        translationBuilder.add(ModItems.MAKIROLL, "Maki-Rolle");
+        translationBuilder.add(ModItems.WHITEALGAE, "Weiße Algen");
+        translationBuilder.add(ModItems.OYSTERSTEW, "Austereintopf");
+        translationBuilder.add(ModItems.LOBSTERRISOTTO, "Hummerrisotto");
+        translationBuilder.add(ModItems.FISHSTEW, "Fischeintopf");
+        translationBuilder.add(ModItems.COOKEDHERRING, "Gekochter Hering");
+        translationBuilder.add(ModItems.COOKEDREDSNAP, "Gekochter Rotter Schnapper");
+        translationBuilder.add(ModItems.FRIEDCAL, "frittierte Calamari");
+        translationBuilder.add(ModItems.CLAMCHOW, "Muschelsuppe");
+        translationBuilder.add(ModItems.GREENALGAE, "Grüne Algen");
+
     }
 
     @Override

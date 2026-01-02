@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:sea_jelly_pudding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_green_sea_algae": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:sea_jelly_pudding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sea_jelly": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:sea_jelly_pudding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sea_jelly_pudding"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_sea_algae": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:sea_jelly_pudding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bowl",
+      "has_green_sea_algae",
+      "has_white_sea_algae",
+      "has_sea_jelly"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sea_jelly_pudding"
+    ]
+  }
+}

@@ -251,6 +251,37 @@ public class CzechiaLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.RICE_PUD_BIG, "Velký rýžový nákyp");
         translationBuilder.add(ModItems.HONEY_PORL, "Medové vepřové");
 
+        translationBuilder.add(ModItems.TUNA, "Tuňák");
+        translationBuilder.add(ModItems.COOKED_TUNA, "Vařený Tuňák");
+        translationBuilder.add(ModItems.OYSTER, "Ústřice");
+        translationBuilder.add(ModItems.CLAM, "Mussel");
+        translationBuilder.add(ModItems.HERRING, "Sleď");
+        translationBuilder.add(ModItems.LOBSTER, "Humr");
+        translationBuilder.add(ModItems.SEAJELLY, "Medúza");
+        translationBuilder.add(ModItems.SHRIMP, "Kreveta");
+        translationBuilder.add(ModItems.SQUID, "Chobotnice");
+        translationBuilder.add(ModItems.SHRIMPRICE, "Rýže s Krevetami");
+        translationBuilder.add(ModItems.SHRIMPCTAIL, "Krevetový Koktejl");
+        translationBuilder.add(ModItems.KINGCRAB, "Královská Krab");
+        translationBuilder.add(ModItems.KINGCRABCAKES, "Krabí Kuličky");
+        translationBuilder.add(ModItems.RAWFISH, "Syrová Ryba");
+        translationBuilder.add(ModItems.REDSNAP, "Červený Snapper");
+        translationBuilder.add(ModItems.SASHIMI, "Sashimi");
+        translationBuilder.add(ModItems.TINCAN, "Konzerva");
+        translationBuilder.add(ModItems.SQUIDINKRAV, "Chobotnicové Ravioli");
+        translationBuilder.add(ModItems.WETPAPER, "Mokrá Papír");
+        translationBuilder.add(ModItems.SEAJELLPUD, "Medúzový Puding");
+        translationBuilder.add(ModItems.MAKIROLL, "Maki Rolka");
+        translationBuilder.add(ModItems.WHITEALGAE, "Bílé Řasy");
+        translationBuilder.add(ModItems.OYSTERSTEW, "Polévka z Ústřic");
+        translationBuilder.add(ModItems.LOBSTERRISOTTO, "Risotto s Humrem");
+        translationBuilder.add(ModItems.FISHSTEW, "Rybí Polévka");
+        translationBuilder.add(ModItems.COOKEDHERRING, "Vařený Sleď");
+        translationBuilder.add(ModItems.COOKEDREDSNAP, "Vařený Červený Snapper");
+        translationBuilder.add(ModItems.FRIEDCAL, "Smažené Kalamáry");
+        translationBuilder.add(ModItems.CLAMCHOW, "Polévka z Mušlí");
+        translationBuilder.add(ModItems.GREENALGAE, "Zelené Řasy");
+
 
     }
 

@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.fabricmc.fabric.api.tag.convention.v2.ConventionalItemTags;
 import net.iyun.yunscuisine.item.ModItems;
 import net.iyun.yunscuisine.util.ModTags;
+import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 
@@ -20,6 +21,23 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
 
         getOrCreateTagBuilder(ItemTags.MEAT)
+                .add(ModItems.TUNA)
+                .add(ModItems.COOKED_TUNA)
+                .add(ModItems.HERRING)
+                .add(ModItems.LOBSTER)
+                .add(ModItems.SHRIMP)
+                .add(ModItems.SHRIMPCTAIL)
+                .add(ModItems.SHRIMPRICE)
+                .add(ModItems.KINGCRAB)
+                .add(ModItems.KINGCRABCAKES)
+                .add(ModItems.RAWFISH)
+                .add(ModItems.REDSNAP)
+                .add(ModItems.SASHIMI)
+                .add(ModItems.MAKIROLL)
+                .add(ModItems.LOBSTERRISOTTO)
+                .add(ModItems.FISHSTEW)
+                .add(ModItems.COOKEDREDSNAP)
+                .add(ModItems.COOKEDHERRING)
                 .add(ModItems.FRIEDCHICKEN)
                 .add(ModItems.RAWCHICKENLEG)
                 .add(ModItems.CANDIEDSPIDEREYE)
@@ -241,6 +259,17 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.GLOWJAM)
                 .add(ModItems.MELONJAM)
                 .add(ModItems.APPLEJAM);
+
+        getOrCreateTagBuilder(ModTags.Items.FISHY)
+                .add(Items.TROPICAL_FISH)
+                .add(Items.COOKED_SALMON)
+                .add(Items.COD)
+                .add(Items.COOKED_COD)
+                .add(Items.SALMON)
+                .add(ModItems.REDSNAP)
+                .add(ModItems.HERRING)
+                .add(ModItems.TUNA);
+
     }
 }
 

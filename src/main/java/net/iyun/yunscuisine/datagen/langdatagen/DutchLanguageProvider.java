@@ -251,6 +251,38 @@ public class DutchLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.RICE_PUD_BIG, "Grote rijstpudding");
         translationBuilder.add(ModItems.HONEY_PORL, "Honing varkensvlees");
 
+        translationBuilder.add(ModItems.TUNA, "Tonijn");
+        translationBuilder.add(ModItems.COOKED_TUNA, "Gekookte Tonijn");
+        translationBuilder.add(ModItems.OYSTER, "Oester");
+        translationBuilder.add(ModItems.CLAM, "Mossel");
+        translationBuilder.add(ModItems.HERRING, "Haring");
+        translationBuilder.add(ModItems.LOBSTER, "Kreeft");
+        translationBuilder.add(ModItems.SEAJELLY, "Jellyfish");
+        translationBuilder.add(ModItems.SHRIMP, "Garnalen");
+        translationBuilder.add(ModItems.SQUID, "Inktvis");
+        translationBuilder.add(ModItems.SHRIMPRICE, "Garnalenrijst");
+        translationBuilder.add(ModItems.SHRIMPCTAIL, "Garnalen Cocktail");
+        translationBuilder.add(ModItems.KINGCRAB, "Koningskrab");
+        translationBuilder.add(ModItems.KINGCRABCAKES, "Koningskrab Cakes");
+        translationBuilder.add(ModItems.RAWFISH, "Raad Vissen");
+        translationBuilder.add(ModItems.REDSNAP, "Rode Snapper");
+        translationBuilder.add(ModItems.SASHIMI, "Sashimi");
+        translationBuilder.add(ModItems.TINCAN, "Blik");
+        translationBuilder.add(ModItems.SQUIDINKRAV, "Inktvis Ravioli");
+        translationBuilder.add(ModItems.WETPAPER, "Nat Papier");
+        translationBuilder.add(ModItems.SEAJELLPUD, "Jellyfish Pudding");
+        translationBuilder.add(ModItems.MAKIROLL, "Makirol");
+        translationBuilder.add(ModItems.WHITEALGAE, "Witte Algen");
+        translationBuilder.add(ModItems.OYSTERSTEW, "Oestersoep");
+        translationBuilder.add(ModItems.LOBSTERRISOTTO, "Kreeft Risotto");
+        translationBuilder.add(ModItems.FISHSTEW, "Visstoofpot");
+        translationBuilder.add(ModItems.COOKEDHERRING, "Gekookte Haring");
+        translationBuilder.add(ModItems.COOKEDREDSNAP, "Gekookte Rode Snapper");
+        translationBuilder.add(ModItems.FRIEDCAL, "Gefrituurde Calamari");
+        translationBuilder.add(ModItems.CLAMCHOW, "Mossel Chowder");
+        translationBuilder.add(ModItems.GREENALGAE, "Groene Algen");
+
+
     }
 
     @Override

@@ -1,0 +1,76 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:king_crab_cakes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_king_crab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:king_crab_cakes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_molten_sugar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:king_crab_cakes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_parsley": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:king_crab_cakes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:king_crab_cakes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:king_crab_cakes"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_king_crab",
+      "has_dough",
+      "has_salt",
+      "has_parsley",
+      "has_molten_sugar"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:king_crab_cakes"
+    ]
+  }
+}

@@ -251,6 +251,36 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.RICE_PUD_BIG, "Big Rice Pudding");
         translationBuilder.add(ModItems.HONEY_PORL, "Honeyed Pork");
 
+        translationBuilder.add(ModItems.TUNA, "Tuna");
+        translationBuilder.add(ModItems.COOKED_TUNA, "Cooked Tuna");
+        translationBuilder.add(ModItems.OYSTER, "Oyster");
+        translationBuilder.add(ModItems.CLAM, "Clam");
+        translationBuilder.add(ModItems.HERRING, "Herring");
+        translationBuilder.add(ModItems.LOBSTER, "Lobster");
+        translationBuilder.add(ModItems.SEAJELLY, "Seajelly");
+        translationBuilder.add(ModItems.SHRIMP, "Shrimp");
+        translationBuilder.add(ModItems.SQUID, "Squid");
+        translationBuilder.add(ModItems.SHRIMPRICE, "Shrimp Fried Rice");
+        translationBuilder.add(ModItems.SHRIMPCTAIL, "Shrimp Cocktail");
+        translationBuilder.add(ModItems.KINGCRAB, "King Crab");
+        translationBuilder.add(ModItems.KINGCRABCAKES, "King Crab Cakes");
+        translationBuilder.add(ModItems.RAWFISH, "Raw Fish");
+        translationBuilder.add(ModItems.REDSNAP, "Red Snapper");
+        translationBuilder.add(ModItems.SASHIMI, "Sashimi");
+        translationBuilder.add(ModItems.TINCAN, "Tincan");
+        translationBuilder.add(ModItems.SQUIDINKRAV, "Squidravioli");
+        translationBuilder.add(ModItems.WETPAPER, "Wetpaper");
+        translationBuilder.add(ModItems.SEAJELLPUD, "Seajellypudding");
+        translationBuilder.add(ModItems.MAKIROLL, "Makiroll");
+        translationBuilder.add(ModItems.WHITEALGAE, "White Algae");
+        translationBuilder.add(ModItems.OYSTERSTEW, "Oysterstew");
+        translationBuilder.add(ModItems.LOBSTERRISOTTO, "Lobsterrisotto");
+        translationBuilder.add(ModItems.FISHSTEW, "Fishstew");
+        translationBuilder.add(ModItems.COOKEDHERRING, "Cooked Herring");
+        translationBuilder.add(ModItems.COOKEDREDSNAP, "Cooked Red Snapper");
+        translationBuilder.add(ModItems.FRIEDCAL, "Fried Calimari");
+        translationBuilder.add(ModItems.CLAMCHOW, "Clawchowder");
+        translationBuilder.add(ModItems.GREENALGAE, "Green Algae");
 
     }
 

@@ -1,0 +1,76 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:squid_ink_ravioli"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_parsley": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:squid_ink_ravioli"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_raw_fish_fillet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:squid_ink_ravioli"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:squid_ink_ravioli"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_squid": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:squid_ink_ravioli"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:squid_ink_ravioli"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_squid",
+      "has_raw_fish_fillet",
+      "has_dough",
+      "has_salt",
+      "has_parsley"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:squid_ink_ravioli"
+    ]
+  }
+}

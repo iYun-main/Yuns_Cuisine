@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:oyster_stew"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_green_sea_algae": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:oyster_stew"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_oyster": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:oyster_stew"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:oyster_stew"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_sea_algae": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:oyster_stew"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bowl",
+      "has_green_sea_algae",
+      "has_white_sea_algae",
+      "has_oyster"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:oyster_stew"
+    ]
+  }
+}

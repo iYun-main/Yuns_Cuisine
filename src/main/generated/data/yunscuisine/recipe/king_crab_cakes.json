@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "yunscuisine:dough"
+    },
+    "G": {
+      "item": "yunscuisine:king_crab"
+    },
+    "I": {
+      "item": "yunscuisine:parsley"
+    },
+    "N": {
+      "item": "yunscuisine:molten_sugar"
+    },
+    "R": {
+      "item": "yunscuisine:salt"
+    }
+  },
+  "pattern": [
+    "NIG",
+    "GER"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:king_crab_cakes"
+  }
+}

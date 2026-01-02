@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yunscuisine:raw_fish_fillet"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "yunscuisine:onion"
+    },
+    {
+      "item": "yunscuisine:bell_pepper_slice"
+    },
+    {
+      "item": "yunscuisine:salt"
+    },
+    {
+      "item": "yunscuisine:rice"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "yunscuisine:maki_roll"
+  }
+}

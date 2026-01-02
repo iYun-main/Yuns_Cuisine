@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "yunscuisine:fishy"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "yunscuisine:raw_fish_fillet"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_shrimp": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:shrimp_cocktail"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:shrimp_cocktail"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_whiskey": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:shrimp_cocktail"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_whiskey",
+      "has_shrimp"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:shrimp_cocktail"
+    ]
+  }
+}

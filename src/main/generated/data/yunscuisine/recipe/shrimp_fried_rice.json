@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:bowl"
+    },
+    "T": {
+      "item": "yunscuisine:rice"
+    },
+    "V": {
+      "item": "yunscuisine:shrimp"
+    }
+  },
+  "pattern": [
+    "TVT",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "yunscuisine:shrimp_fried_rice"
+  }
+}
