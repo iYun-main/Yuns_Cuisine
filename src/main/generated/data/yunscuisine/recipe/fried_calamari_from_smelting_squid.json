@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 120,
+  "experience": 1.0,
+  "group": "squidding",
+  "ingredient": {
+    "item": "yunscuisine:squid"
+  },
+  "result": {
+    "id": "yunscuisine:fried_calamari"
+  }
+}

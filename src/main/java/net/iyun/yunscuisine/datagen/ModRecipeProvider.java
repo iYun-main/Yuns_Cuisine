@@ -33,6 +33,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         List<ItemConvertible> RAWCHICKENLEG = List.of(ModItems.RAWCHICKENLEG);
         List<ItemConvertible> BOILEDEGG = List.of(Items.EGG);
         List<ItemConvertible> SNIIFERBOILING = List.of(Items.SNIFFER_EGG);
+        List<ItemConvertible> RAWTUNA = List.of(ModItems.TUNA);
+        List<ItemConvertible> RAWHERRING = List.of(ModItems.HERRING);
+        List<ItemConvertible> WETP = List.of(ModItems.WETPAPER);
+        List<ItemConvertible> CAN = List.of(ModItems.TINCAN);
+        List<ItemConvertible> CLAIMI = List.of(ModItems.SQUID);
 
         offerSmelting(exporter, COOKINGONION, RecipeCategory.FOOD, ModItems.FRIEDONIONRING, 0.3f, 120, "onionringcooked");
         offerSmelting(exporter, BACON_COOKING, RecipeCategory.FOOD, ModItems.COOKEDBACON, 1f, 120, "cooked_bacon");
@@ -40,6 +45,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(exporter, BOILEDEGG, RecipeCategory.FOOD, ModItems.BOILEDEGG, 1f, 200, "boiled_egg");
         offerSmelting(exporter, RAWCHICKENLEG, RecipeCategory.FOOD, ModItems.FRIEDCHICKEN, 1f, 120, "chickenleggy");
         offerSmelting(exporter, SNIIFERBOILING, RecipeCategory.FOOD, ModItems.BOILEDSNIFFEGG, 1f, 120, "sniifering");
+
+        offerSmelting(exporter, CAN, RecipeCategory.FOOD, Items.IRON_NUGGET, 1f, 120, "canning");
+        offerSmelting(exporter, CLAIMI, RecipeCategory.FOOD, ModItems.FRIEDCAL, 1f, 120, "squidding");
+        offerSmelting(exporter, RAWTUNA, RecipeCategory.FOOD, ModItems.COOKED_TUNA, 1f, 180, "cooked_tuna");
+        offerSmelting(exporter, RAWHERRING, RecipeCategory.FOOD, ModItems.COOKEDHERRING, 1f, 180, "cooked_herring");
+        offerSmelting(exporter, WETP, RecipeCategory.FOOD, Items.PAPER, 1f, 120, "papering");
+
 
 //Food Crafting
 

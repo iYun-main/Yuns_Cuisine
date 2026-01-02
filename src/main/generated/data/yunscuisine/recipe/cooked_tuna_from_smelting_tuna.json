@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 180,
+  "experience": 1.0,
+  "group": "cooked_tuna",
+  "ingredient": {
+    "item": "yunscuisine:tuna"
+  },
+  "result": {
+    "id": "yunscuisine:cooked_tuna"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 120,
+  "experience": 1.0,
+  "group": "papering",
+  "ingredient": {
+    "item": "yunscuisine:wet_paper"
+  },
+  "result": {
+    "id": "minecraft:paper"
+  }
+}

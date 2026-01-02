@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:paper_from_smelting_wet_paper"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wet_paper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:wet_paper"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_wet_paper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:paper_from_smelting_wet_paper"
+    ]
+  }
+}

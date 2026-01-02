@@ -252,6 +252,7 @@ public class ModItems {
 
     public static final Item SANDBREAD = registerItem("sand_bread", new Item(new Item.Settings().food(ModFoodComponents.SANDBREAD)));
 
+
     public static final Item TUNA = registerItem("tuna", new Item(new Item.Settings().food(ModFoodComponents.TUNA)));
     public static final Item COOKED_TUNA = registerItem("cooked_tuna", new Item(new Item.Settings().food(ModFoodComponents.COOKEDTUNA)));
     public static final Item OYSTER = registerItem("oyster", new Item(new Item.Settings().food(ModFoodComponents.OYSTER)));

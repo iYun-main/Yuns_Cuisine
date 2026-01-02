@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 120,
+  "experience": 1.0,
+  "group": "canning",
+  "ingredient": {
+    "item": "yunscuisine:tin_can"
+  },
+  "result": {
+    "id": "minecraft:iron_nugget"
+  }
+}
