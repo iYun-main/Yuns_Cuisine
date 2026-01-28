@@ -214,6 +214,7 @@ public class GermanLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.FRIEDCAL, "frittierte Calamari");
         translationBuilder.add(ModItems.CLAMCHOW, "Muschelsuppe");
         translationBuilder.add(ModItems.GREENALGAE, "Grüne Algen");
+        translationBuilder.add(ModItems.DRIFTWOOD, "Treibholz");
 
     }
 

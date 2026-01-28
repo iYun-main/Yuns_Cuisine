@@ -281,6 +281,7 @@ public class DutchLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.FRIEDCAL, "Gefrituurde Calamari");
         translationBuilder.add(ModItems.CLAMCHOW, "Mossel Chowder");
         translationBuilder.add(ModItems.GREENALGAE, "Groene Algen");
+        translationBuilder.add(ModItems.DRIFTWOOD, "Drijfhout");
 
 
     }

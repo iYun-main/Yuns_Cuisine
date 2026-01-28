@@ -281,6 +281,7 @@ public class SwedishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.FRIEDCAL, "Friterad Calamari");
         translationBuilder.add(ModItems.CLAMCHOW, "Klawchowder");
         translationBuilder.add(ModItems.GREENALGAE, "Grön Algen");
+        translationBuilder.add(ModItems.DRIFTWOOD, "Drivved");
 
 
     }

@@ -281,6 +281,7 @@ public class CzechiaLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.FRIEDCAL, "Smažené Kalamáry");
         translationBuilder.add(ModItems.CLAMCHOW, "Polévka z Mušlí");
         translationBuilder.add(ModItems.GREENALGAE, "Zelené Řasy");
+        translationBuilder.add(ModItems.DRIFTWOOD, "Naplavené Dřevo");
 
 
     }

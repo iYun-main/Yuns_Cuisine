@@ -279,8 +279,9 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.COOKEDHERRING, "Cooked Herring");
         translationBuilder.add(ModItems.COOKEDREDSNAP, "Cooked Red Snapper");
         translationBuilder.add(ModItems.FRIEDCAL, "Fried Calimari");
-        translationBuilder.add(ModItems.CLAMCHOW, "Clawchowder");
+        translationBuilder.add(ModItems.CLAMCHOW, "Clamchowder");
         translationBuilder.add(ModItems.GREENALGAE, "Green Algae");
+        translationBuilder.add(ModItems.DRIFTWOOD, "Driftwood");
 
     }
 
