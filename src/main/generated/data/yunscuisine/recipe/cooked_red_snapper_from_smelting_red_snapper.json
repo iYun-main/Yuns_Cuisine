@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 180,
+  "experience": 1.0,
+  "group": "cooked_red_40",
+  "ingredient": {
+    "item": "yunscuisine:red_snapper"
+  },
+  "result": {
+    "id": "yunscuisine:cooked_red_snapper"
+  }
+}

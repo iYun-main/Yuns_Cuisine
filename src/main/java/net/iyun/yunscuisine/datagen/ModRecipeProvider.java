@@ -8,9 +8,6 @@ import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.*;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.RecipeSerializer;
-import net.minecraft.recipe.RecipeType;
-import net.minecraft.recipe.SmokingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
@@ -38,6 +35,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         List<ItemConvertible> WETP = List.of(ModItems.WETPAPER);
         List<ItemConvertible> CAN = List.of(ModItems.TINCAN);
         List<ItemConvertible> CLAIMI = List.of(ModItems.SQUID);
+        List<ItemConvertible> REDSNA = List.of(ModItems.REDSNAP);
 
         offerSmelting(exporter, COOKINGONION, RecipeCategory.FOOD, ModItems.FRIEDONIONRING, 0.3f, 120, "onionringcooked");
         offerSmelting(exporter, BACON_COOKING, RecipeCategory.FOOD, ModItems.COOKEDBACON, 1f, 120, "cooked_bacon");
@@ -49,6 +47,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(exporter, CAN, RecipeCategory.FOOD, Items.IRON_NUGGET, 1f, 120, "canning");
         offerSmelting(exporter, CLAIMI, RecipeCategory.FOOD, ModItems.FRIEDCAL, 1f, 120, "squidding");
         offerSmelting(exporter, RAWTUNA, RecipeCategory.FOOD, ModItems.COOKED_TUNA, 1f, 180, "cooked_tuna");
+        offerSmelting(exporter, REDSNA, RecipeCategory.FOOD, ModItems.COOKEDREDSNAP, 1f, 180, "cooked_red_40");
         offerSmelting(exporter, RAWHERRING, RecipeCategory.FOOD, ModItems.COOKEDHERRING, 1f, 180, "cooked_herring");
         offerSmelting(exporter, WETP, RecipeCategory.FOOD, Items.PAPER, 1f, 120, "papering");
 

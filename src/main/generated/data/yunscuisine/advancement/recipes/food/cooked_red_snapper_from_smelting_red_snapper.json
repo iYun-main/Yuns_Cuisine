@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_snapper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yunscuisine:red_snapper"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cooked_red_snapper_from_smelting_red_snapper"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_red_snapper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cooked_red_snapper_from_smelting_red_snapper"
+    ]
+  }
+}
